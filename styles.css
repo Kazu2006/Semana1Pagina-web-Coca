@@ -1,0 +1,239 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F4F4;
+}
+
+
+/* Contenedor general */
+.container {
+    width: calc(100% - 160px); /* 80px de cada lado */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #024731; /* Verde oscuro */
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+/* Navegación */
+.nav-links {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 00;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Botones Navbar */
+.nav-buttons {
+    display: flex;
+    gap: 35px;
+
+}
+
+.login-btn {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 20px;
+    
+}
+
+.signup-btn {
+    background-color: #54f9ff;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.signup-btn:hover {
+    border: 2px solid white; /* Resalta más al pasar el mouse */
+}
+
+.login-btn:hover {
+    background-color: transparent;
+    border: 2px solid white; /* Resalta más al pasar el mouse */
+}
+
+
+/* Hero Section */
+.hero {
+    background-color: #024731;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+    display: flex;
+    justify-content: center; /* Centra todo horizontalmente */
+    align-items: center; /* Centra todo verticalmente */
+}
+
+/* Asegurar que el contenido dentro del Hero esté centrado */
+.hero .container {
+    width: calc(100% - 160px); /* 80px de cada lado */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* Etiqueta superior */
+.tag {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 6px 50px;
+    border-radius: 15px;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+
+/* Mejorar el título */
+.hero h1 {
+    font-size: 50px;
+    font-weight: 700;
+    max-width: 700px;
+    margin: 0 auto 15px;
+}
+
+
+
+/* Mejorar el subtítulo */
+.hero p {
+    font-size: 15px;
+    font-weight: 300;
+    max-width: 650px;
+    margin: 0 auto 30px;
+    line-height: 1.5;
+}
+
+
+/* Botones Hero */
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+/* Ajuste de botones */
+.yellow-btn {
+    background-color: #FFD700;
+    color: black;
+    padding: 12px 25px;
+    border-radius: 25px;
+}
+
+.green-btn {
+    background-color: transparent;
+    color: #2AA844; /* Texto en verde */
+    padding: 12px 25px;
+    border-radius: 25px;
+    border: 2px solid #2AA844; /* Borde verde */
+    font-weight: bold;
+}
+
+.yellow-btn:hover {
+    background-color: #FFC107;
+    border: 2px solid white; /* Resalta más al pasar el mouse */
+    color: white;
+}
+
+.green-btn:hover {
+    background-color: #2AA844; /* Se llena de verde al pasar el mouse */
+    color: white;
+    border: 2px solid white; /* Resalta más al pasar el mouse */
+}
+
+
+/* Número de contacto */
+.contact-info {
+    position: absolute;
+    left: 80px;
+    bottom: 15px;
+    color: white;
+    font-size: 14px;
+}
+
+.contact-info img{
+   width: 45px; /* Ajusta el tamaño del icono */ 
+}
+
+/* Scroll Down */
+.scroll-down {
+    position: absolute;
+    right: 80px;
+    bottom: 15px;
+    color: white;
+    font-size: 14px;
+}
+
+.scroll-down img {
+    width: 45px; /* Ajusta el tamaño del icono */
+    transition: opacity 0.3s, transform 0.3s;
+    margin-top: 50px; /* Ajusta este valor para mover la imagen */
+}
+
+/* Iconos flotantes */
+.floating-icons {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.icon {
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+}
