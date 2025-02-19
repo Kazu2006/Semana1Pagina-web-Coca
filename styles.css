@@ -6,246 +6,6 @@ body {
 }
 
 
-/* Contenedor general */
-.container {
-    width: calc(100% - 160px); /* 80px de cada lado */
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-/* Navbar */
-.navbar {
-    background-color: #024731; /* Verde oscuro */
-    padding: 15px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-/* Logo */
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-.logo img {
-    height: 50px;
-    margin-right: 10px;
-}
-
-/* Navegación */
-.nav-links {
-    display: flex;
-    gap: 40px;
-}
-
-.nav-links a {
-    color: white;
-    text-decoration: none;
-    font-weight: 00;
-    font-size: 18px;
-}
-
-.nav-links a:hover {
-    text-decoration: underline;
-}
-
-/* Botones Navbar */
-.nav-buttons {
-    display: flex;
-    gap: 35px;
-
-}
-
-.login-btn {
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
-    padding: 10px 15px;
-    border-radius: 20px;
-    
-}
-
-.signup-btn {
-    background-color: #54f9ff;
-    color: black;
-    padding: 10px 15px;
-    border-radius: 20px;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.signup-btn:hover {
-    border: 2px solid white; /* Resalta más al pasar el mouse */
-}
-
-.login-btn:hover {
-    background-color: transparent;
-    border: 2px solid white; /* Resalta más al pasar el mouse */
-}
-
-
-/* Hero Section */
-.hero {
-    background-color: #024731;
-    color: white;
-    text-align: center;
-    padding: 100px 0;
-    position: relative;
-    display: flex;
-    justify-content: center; /* Centra todo horizontalmente */
-    align-items: center; /* Centra todo verticalmente */
-}
-
-/* Asegurar que el contenido dentro del Hero esté centrado */
-.hero .container {
-    width: calc(100% - 160px); /* 80px de cada lado */
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-
-/* Etiqueta superior */
-.tag {
-    background-color: rgba(255, 255, 255, 0.2);
-    color: white;
-    padding: 6px 50px;
-    border-radius: 15px;
-    font-size: 14px;
-    display: inline-block;
-    margin-bottom: 15px;
-}
-
-
-/* Mejorar el título */
-.hero h1 {
-    font-size: 50px;
-    font-weight: 700;
-    max-width: 700px;
-    margin: 0 auto 15px;
-    line-height: 1.2;
-}
-
-
-
-
-/* Mejorar el subtítulo */
-.hero p {
-    font-size: 15px;
-    font-weight: 300;
-    max-width: 650px;
-    margin: 0 auto 30px;
-    line-height: 1.5;
-}
-
-
-/* Botones Hero */
-.hero-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-bottom: 90px; /*altura xd*/
-}
-
-.btn {
-    text-decoration: none;
-    padding: 12px 25px;
-    border-radius: 5px;
-    font-weight: 600;
-}
-
-/* Ajuste de botones */
-.yellow-btn {
-    background-color: #FFD700;
-    color: black;
-    padding: 12px 25px;
-    border-radius: 25px;
-    font-weight: bold;
-}
-
-.green-btn {
-    background-color: transparent;
-    color: #2AA844; /* Texto en verde */
-    padding: 12px 25px;
-    border-radius: 25px;
-    border: 2px solid #2AA844; /* Borde verde */
-    font-weight: bold;
-}
-
-.yellow-btn:hover {
-    background-color: #FFC107;
-    border: 2px solid white; /* Resalta más al pasar el mouse */
-    color: white;
-}
-
-.green-btn:hover {
-    background-color: #2AA844; /* Se llena de verde al pasar el mouse */
-    color: white;
-    border: 2px solid white; /* Resalta más al pasar el mouse */
-}
-
-
-/* Número de contacto */
-.contact-info {
-    position: absolute;
-    left: 85px;
-    bottom: 10px;
-    display: flex;
-    align-items: center;
-    gap: 0px;
-    color: white;
-
-}
-
-.contact-info img{
-   width: 85px; /* Ajusta el tamaño del icono */
-   transform: translateY(-15px);    
-}
-
-/* Scroll Down */
-.scroll-down {
-    position: absolute;
-    right: 85px;
-    bottom: 10px;
-    color: white;
-    display: flex;
-    align-items: center;
-    gap: 0;
-}
-.scroll-down img {
-    width: 65px; /* Ajusta el tamaño del icono */
-    transform: translateY(-15px);
-}
-
-/* Iconos flotantes */
-.floating-icons {
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.icon {
-    background: white;
-    padding: 10px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
-    width: 40px;
-    height: 40px;
-}
-
 
 
 /* Sección de Integraciones */
@@ -292,3 +52,228 @@ body {
 
 
 
+/* Estilos de la Sección de Mensajería */
+
+.messaging {
+    background-color: white;
+    padding: 100px 0;
+}
+
+.messaging-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1600px; /* y esto ayuda como a tenerlo como centrar creo xdd*/
+    width: calc(100% - 160px); /* 80px de cada lado */
+    margin: 0 auto;
+}
+
+.messaging-text {
+    max-width: 50%; /*esto ayuda para ajustar su ancho del texto*/
+}
+
+.messaging-text h2 {
+    font-size: 60px;
+    color: #0E1629; /* Azul oscuro similar a la imagen */
+    font-weight: 510;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.messaging-text p {
+    font-size: 16px;
+    color: #7A8599;
+    line-height: 1.5;
+    max-width: 65%;
+    margin-bottom: 20px;
+}
+
+.messaging-text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.messaging-text ul li {
+    font-size: 16px;
+    color: #0E1629;
+    margin-bottom: 25px;
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+}
+
+/*esto son los ajustes del check*/
+.messaging-text ul li::before {
+    content: "✔";
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    width: 28px;
+    height: 28px;
+    background-color: #0E7355;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    clip-path: polygon(
+        50% 0%, 62% 12%, 78% 10%, 88% 24%, 100% 33%, 
+        92% 50%, 100% 67%, 88% 76%, 78% 90%, 62% 88%, 
+        50% 100%, 38% 88%, 22% 90%, 12% 76%, 0% 67%, 
+        8% 50%, 0% 33%, 12% 24%, 22% 10%, 38% 12%
+    );
+    border-radius: 8%;
+}
+
+
+
+.messaging-image img {
+    max-width: 580px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+}
+
+/* Responsividad */
+@media (max-width: 1024px) {
+    .messaging-container {
+        flex-direction: column;
+        text-align: center;
+        width: calc(100% - 160px); /* 80px de cada lado */
+        margin: 0 auto;
+    }
+
+    .messaging-text {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .messaging-image img {
+        max-width: 100%;
+    }
+}
+
+
+/* Responsive */
+@media screen and (max-width: 1024px) {
+    .hero h1 {
+        font-size: 6vw;
+        max-width: 70%;
+    }
+
+    .hero p {
+        font-size: 1rem;
+        max-width: 80%;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .arrow-text-container {
+        left: 5%;
+        bottom: 150px;
+        width: calc(100% - 160px); /* 80px de cada lado */
+        margin: 0 auto;
+    }
+
+    .arrow-text {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+        width: calc(100% - 160px); /* 80px de cada lado */
+        margin: 0 auto;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 20px;
+        display: none;
+    }
+
+    .nav-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .hero {
+        padding: 60px 5%;
+    }
+
+    .hero h1 {
+        font-size: 8vw;
+        max-width: 80%;
+    }
+
+    .hero p {
+        font-size: 1rem;
+        max-width: 90%;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .arrow-text-container {
+        left: 50%;
+        bottom: 100px;
+        transform: translateX(-50%);
+        
+    }
+
+    .arrow-text {
+        font-size: 10px;
+    }
+
+    .arrow-text-container svg {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+        width: calc(100% - 160px); /* 80px de cada lado */
+        margin: 0 auto;
+    }
+
+    .hero h1 {
+        font-size: 10vw;
+        max-width: 90%;
+        width: calc(100% - 160px); /* 80px de cada lado */
+        margin: 0 auto;
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+        max-width: 95%;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .yellow-btn, .green-btn {
+        width: 80%;
+        text-align: center;
+    }
+
+    .arrow-text-container {
+        bottom: 80px;
+    }
+
+    .arrow-text {
+        font-size: 9px;
+    }
+
+    .arrow-text-container svg {
+        width: 30px;
+        height: 30px;
+    }
+}
