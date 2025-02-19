@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Live Chat Support</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="navar.css"> <!-- css de mi nav y mi hero-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
@@ -24,30 +25,47 @@
             </nav>
             <div class="nav-buttons">
                 <a href="#" class="login-btn">Login</a>
-                <a href="#" class="signup-btn">Sign up</a>
+                <span class="separator"></span>
+                <a href="#" class="signup-btn">Register</a>
             </div>
+            
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <!-- Etiqueta encima del título -->
-            <div class="tag">Chat software</div>
-            <h1>Provide real-time <br> support through chat <br> for your customers</h1>
-            <p>Great software that allows you to track, manage <br> and resolve customer support tickets.</p>
-            <div class="hero-buttons">
-                <a href="#" class="btn yellow-btn">Chatting Now</a>
-                <a href="#" class="btn green-btn">Learn More</a>
-            </div>
+<!-- Hero Section -->
+<section class="hero">
+    <div class="container">
+        <!-- Etiqueta encima del título -->
+        <div class="tag">Chat software</div>
+        <h1>Provide real-time <br> support through chat <br> for your customers</h1>
+        <p class="greatsof">Great software that allows you to track, manage <br> and resolve customer support tickets.</p>
+
+        <div class="arrow-text-container">
+            <h4 class="arrow-text">All research <br> starts from here</h4>
+            <svg width="60" height="50" viewBox="0 0 60 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Curva de la flecha -->
+                <path d="M2 40 C20 50, 45 40, 50 20" stroke="white" stroke-width="4" stroke-linecap="round"/>
+                <!-- Punta de la flecha -->
+                <path d="M50 20 L55 35" stroke="white" stroke-width="4" stroke-linecap="round"/>
+                <path d="M50 20 L39 26" stroke="white" stroke-width="4" stroke-linecap="round"/>
+            </svg>
+        </div>
+        
+
+        <div class="hero-buttons">
+            <a href="#" class="btn yellow-btn">Chatting Now</a>
+            <a href="#" class="btn green-btn">Learn More</a>
+        </div>
+
         <!-- Número de contacto -->
         <div class="contact-info">
-            <img src="assets/telf.png"alt="telefono">
+            <img src="assets/telf.png" alt="telefono">
             <p>+182 (283) 343-23-10</p>
         </div>
+
         <!-- Scroll Down -->
         <div class="scroll-down">
-            <img src="assets/mousxd.png"alt="mouse">
+            <img src="assets/mousxd.png" alt="mouse">
             <p>SCROLL DOWN</p>
         </div>
 
@@ -57,9 +75,8 @@
             <span class="icon phone">📞</span>
             <span class="icon video">📹</span>
         </div>
-
-        </div>
-    </section>
+    </div>
+</section>
 
         
     <!-- Sección de Integración con herramientas -->
@@ -85,7 +102,27 @@
         </div>
     </section>
 
+    <!-- Sección de Mensajería Unificada -->
+    <section class="messaging">
+        <div class="container messaging-container">
+            <div class="messaging-text">
+                <h2>Access a unified multi-channel messaging solution in one place</h2>
+                <p>Enable your customers to communicate effortlessly through Live Chat, Facebook, Telegram, and numerous other tools, with prompt responses from Coca.</p>
+                <ul>
+                    <li>Engage in real-time chats with visitors, prospects, and customers.</li>
+                    <li>Easily scale personalized conversations without limitations.</li>
+                    <li>Participate in contextual chat conversations on the go.</li>
+                </ul>
+            </div>
+            <div class="messaging-image">
+                <img src="assets/ftdemsj.png" alt="Chat Interface">
+            </div>
+        </div>
+    </section>
+
 
 </body>
 </html>
+
+
 
