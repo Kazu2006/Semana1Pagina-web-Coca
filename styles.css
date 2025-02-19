@@ -55,7 +55,7 @@ body {
 /* Estilos de la Sección de Mensajería */
 
 .messaging {
-    background-color: black;
+    background: white;
     padding: 100px 0;
 }
 
