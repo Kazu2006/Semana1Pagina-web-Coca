@@ -131,6 +131,178 @@ body {
     height: auto;
 }
 
+
+
+/**/
+/* Sección de Comunicación y Pedidos */
+.communication-orders {
+    position: relative;
+    padding-bottom: 50px; /*esto soluciona la linea verde del final*/
+}
+
+/* Contenedor general */
+.container-comunicacion {
+    position: relative;
+    background: linear-gradient(to bottom, #ffffff 30%, #24752f 0%);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Contenedor del texto */
+.top-content {
+    display: flex;
+    justify-content: space-between; /* Separa el título a la izquierda y el subtítulo a la derecha */
+    align-items: center; /* Alinea los textos en la misma línea */
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+/* Contenedor del texto */
+.textconta {
+    display: flex;
+    justify-content: space-between; /* Separa el título y subtítulo */
+    align-items: center; /* Asegura que ambos estén alineados verticalmente */
+    max-width: 1600px;
+    width: 100%;
+}
+
+/* Ajuste del título */
+.tituloxd {
+    font-size: 40px;
+    font-weight: 600;
+    color: #0E0E2C;
+    line-height: 1.2;
+    margin: 0;
+    text-align: left;
+    max-width: 650px;
+}
+
+/* Ajuste del subtítulo */
+.subtituloxd {
+    font-size: 16px;
+    color: #6B7280;
+    max-width: 380px;
+    line-height: 1.5;
+}
+
+
+
+
+/* Contenedor del video */
+.videoimagen {
+    max-width: 1600px;
+    flex-shrink: 0;
+    margin-top: 20px;
+}
+
+.videoimagen img {
+    width: 100%;
+    border-radius: 20px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+/* Efecto hover */
+.videoimagen img:hover {
+    transform: scale(1.1);
+}
+
+
+
+/* Sección inferior con fondo verde
+AQUI PUEDO PONER SU MARGIN 80*/
+.bottom-wrapper {
+    width: calc(100% - 160px); /* 80px de cada lado */
+    margin: 0 auto;
+    max-width: 1600px;
+    position: relative;
+    width: 100%;
+    padding: 150px 0;
+    margin-top: 20px;
+}
+
+/* Contenedor del contenido verde */
+.bottom-content {
+    max-width: 1600px;
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: space-between;
+    gap: 50px;
+    color: white;
+}
+
+/* Texto dentro de la sección verde */
+.orders-text {
+    flex: 1;
+}
+
+.orders-text h2 {
+    max-width: 80%; /* Ajusta el ancho del texto */
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.orders-text .subtitu {
+    max-width: 60%;
+    font-size: 18px;
+    color: #bebebe;
+}
+
+/* Sección de estadísticas */
+.stats {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 140px; /* Espacio entre cada estadística */
+}
+
+.stats div {
+    display: flex;
+    align-items: center;
+    max-width: 30%;
+    gap: 20px; /* Espacio entre número y texto */
+}
+
+.stats h5 {
+    font-size: 64px; /* Tamaño grande para los números */
+    font-weight: 600; /* Más grueso */
+    color: white;
+    margin: 20px 10px;
+}
+
+.numerosxdd {
+    font-size: 18px; /* Tamaño del texto descriptivo */
+    font-weight: 500;
+    color: white;
+    margin: 0;
+}
+
+
+/* Imagen en la sección verde */
+.dashboard-image {
+    flex: 1;
+    max-width: 600px;
+    display: flex;
+    justify-content: flex-end; /* Alinea la imagen a la derecha */
+}
+
+.dashboard-image img {
+    width: 100%;
+    max-width: 600px; /* Controla el tamaño máximo */
+    border-radius: 10px;
+}
+
+
+/**/
+
+
 /* Responsividad */
 @media (max-width: 1024px) {
     .messaging-container {
