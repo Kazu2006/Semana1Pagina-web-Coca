@@ -1,6 +1,6 @@
 /* Contenedor general */
 .container {
-    width: calc(100% - 160px); /* 80px de cada lado */
+    width: calc(100% - 200px); /* 80px de cada lado */
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -24,7 +24,7 @@
 
 .logo img {
     height: 50px;
-    margin-right: 100px;
+    margin: auto;
 }
 
 /* Navegación */
@@ -103,7 +103,7 @@
 
 /* Asegurar que el contenido dentro del Hero esté centrado */
 .hero .container {
-    width: calc(100% - 160px); /* 80px de cada lado */
+    width: calc(100% - 200px); /* 80px de cada lado */
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -232,7 +232,7 @@
 /* Número de contacto */
 .contact-info {
     position: absolute;
-    left: 85px;
+    left: 90px;
     bottom: 10px;
     display: flex;
     align-items: center;
@@ -250,7 +250,7 @@
 /* Scroll Down */
 .scroll-down {
     position: absolute;
-    right: 85px;
+    right: 120px;
     bottom: 10px;
     color: white;
     display: flex;
@@ -284,4 +284,6 @@
     width: 40px;
     height: 40px;
 }
+
+
 
