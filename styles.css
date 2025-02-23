@@ -2,16 +2,15 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #F4F4F4;
+    background-color: white;
 }
-
-
 
 
 /* Sección de Integraciones */
 .integrations {
     background: white;
     text-align: center;
+    margin: 0 100px; 
     padding: 80px 0;
     display: flex;
     flex-direction: column;
@@ -57,25 +56,24 @@ body {
 .messaging {
     background: white;
     padding: 100px 0;
+    margin: 0 100px; 
 }
 
 .messaging-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1600px; /* y esto ayuda como a tenerlo como centrar creo xdd*/
-    width: calc(100% - 160px); /* 80px de cada lado */
-    margin: 0 auto;
+    max-width: 1500px; /* y esto ayuda como a tenerlo como centrar creo xdd*/
 }
 
 .messaging-text {
-    max-width: 50%; /*esto ayuda para ajustar su ancho del texto*/
+    max-width: 100%; /*esto ayuda para ajustar su ancho del texto*/
 }
 
 .messaging-text h2 {
-    font-size: 60px;
+    font-size: 64px;
     color: #0E1629; /* Azul oscuro similar a la imagen */
-    font-weight: 510;
+    font-weight: 500;
     margin-bottom: 20px;
     line-height: 1.5;
 }
@@ -129,6 +127,7 @@ body {
 .messaging-image img {
     max-width: 580px; /* Ajusta el tamaño de la imagen */
     height: auto;
+    padding: 0 35px;
 }
 
 
@@ -136,19 +135,16 @@ body {
 /**/
 /* Sección de Comunicación y Pedidos */
 .communication-orders {
-    position: relative;
-    padding-bottom: 50px; /*esto soluciona la linea verde del final*/
+    background: linear-gradient(to bottom, #ffffff 30%, #024731 0%);
+    padding: 100px 0;
 }
 
 /* Contenedor general */
 .container-comunicacion {
-    position: relative;
-    background: linear-gradient(to bottom, #ffffff 30%, #24752f 0%);
-    padding-bottom: 50px;
-    padding-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 100px; 
 }
 
 /* Contenedor del texto */
@@ -157,9 +153,6 @@ body {
     justify-content: space-between; /* Separa el título a la izquierda y el subtítulo a la derecha */
     align-items: center; /* Alinea los textos en la misma línea */
     width: 100%;
-    max-width: 1600px;
-    margin: 0 auto;
-    padding: 50px 0;
 }
 
 /* Contenedor del texto */
@@ -167,19 +160,18 @@ body {
     display: flex;
     justify-content: space-between; /* Separa el título y subtítulo */
     align-items: center; /* Asegura que ambos estén alineados verticalmente */
-    max-width: 1600px;
     width: 100%;
 }
 
 /* Ajuste del título */
 .tituloxd {
-    font-size: 40px;
+    font-size: 64px;
     font-weight: 600;
     color: #0E0E2C;
     line-height: 1.2;
-    margin: 0;
+    padding: 10px 0;
     text-align: left;
-    max-width: 650px;
+    max-width: 1000px;
 }
 
 /* Ajuste del subtítulo */
@@ -195,9 +187,8 @@ body {
 
 /* Contenedor del video */
 .videoimagen {
-    max-width: 1600px;
+    max-width: 1800px;
     flex-shrink: 0;
-    margin-top: 20px;
 }
 
 .videoimagen img {
@@ -208,32 +199,28 @@ body {
 }
 
 
-/* Efecto hover */
+/* Efecto hover 
 .videoimagen img:hover {
-    transform: scale(1.1);
-}
+
+}*/
 
 
 
 /* Sección inferior con fondo verde
 AQUI PUEDO PONER SU MARGIN 80*/
 .bottom-wrapper {
-    width: calc(100% - 160px); /* 80px de cada lado */
-    margin: 0 auto;
-    max-width: 1600px;
+    max-width: 1800px;
     position: relative;
     width: 100%;
     padding: 150px 0;
-    margin-top: 20px;
 }
 
 /* Contenedor del contenido verde */
 .bottom-content {
-    max-width: 1600px;
     display: flex;
     align-items: center; /* Centra verticalmente */
     justify-content: space-between;
-    gap: 50px;
+    gap: 100px;
     color: white;
 }
 
@@ -244,13 +231,13 @@ AQUI PUEDO PONER SU MARGIN 80*/
 
 .orders-text h2 {
     max-width: 80%; /* Ajusta el ancho del texto */
-    font-size: 60px;
+    font-size: 64px;
     font-weight: 500;
     line-height: 1.2;
 }
 
 .orders-text .subtitu {
-    max-width: 60%;
+    max-width: 58%;
     font-size: 18px;
     color: #bebebe;
 }
@@ -260,7 +247,7 @@ AQUI PUEDO PONER SU MARGIN 80*/
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 140px; /* Espacio entre cada estadística */
+    gap: 130px; /* Espacio entre cada estadística */
 }
 
 .stats div {
@@ -300,6 +287,72 @@ AQUI PUEDO PONER SU MARGIN 80*/
 }
 
 
+
+
+
+/*SECCION DE mensaje numero2*/
+/* SECCIÓN DE MENSAJE NUMERO 2 */
+.chatsx-interface {
+    display: flex;
+    align-items: center; /* Centra la imagen y el texto verticalmente */
+    justify-content: center;
+    gap: 150px; /* Reduce la separación */
+    margin: 0 100px;
+    padding: 140px 0;
+    background-color: white;
+    
+}
+
+.chatsx-image {
+    width: 680px; /* Ajusta la imagen a un tamaño más preciso */
+    flex-shrink: 0;
+}
+
+.chatsx-image img {
+    flex: 1; /* Permite que el texto se ajuste bien */
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.1);
+}
+
+.chatsx-text {
+    max-width: 750px; /* Define un ancho máximo */
+    flex: 1; /* Permite que el texto se ajuste bien */
+}
+
+.chatsx-title {
+    font-size: 62px; /* Tamaño similar al de la imagen */
+    color: black;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: auto;
+}
+
+.chatsx-paragraph {
+    max-width: 600px; /* Define un ancho máximo */
+    font-size: 18px;
+    color: #5F6368;
+    line-height: 1.6;
+    margin-top: 40px;
+}
+
+.learn-more {
+    background-color: #024731;
+    color: white;
+    padding: 15px 44px;
+    border-radius: 80px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+
+.learn-more:hover {
+    background-color: #092219;
+}
+
+
 /**/
 
 
@@ -323,129 +376,3 @@ AQUI PUEDO PONER SU MARGIN 80*/
 }
 
 
-/* Responsive */
-@media screen and (max-width: 1024px) {
-    .hero h1 {
-        font-size: 6vw;
-        max-width: 70%;
-    }
-
-    .hero p {
-        font-size: 1rem;
-        max-width: 80%;
-    }
-
-    .hero-buttons {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .arrow-text-container {
-        left: 5%;
-        bottom: 150px;
-        width: calc(100% - 160px); /* 80px de cada lado */
-        margin: 0 auto;
-    }
-
-    .arrow-text {
-        font-size: 12px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .container {
-        flex-direction: column;
-        text-align: center;
-        width: calc(100% - 160px); /* 80px de cada lado */
-        margin: 0 auto;
-    }
-
-    .nav-links {
-        flex-direction: column;
-        gap: 20px;
-        display: none;
-    }
-
-    .nav-buttons {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    .hero {
-        padding: 60px 5%;
-    }
-
-    .hero h1 {
-        font-size: 8vw;
-        max-width: 80%;
-    }
-
-    .hero p {
-        font-size: 1rem;
-        max-width: 90%;
-    }
-
-    .hero-buttons {
-        flex-direction: column;
-    }
-
-    .arrow-text-container {
-        left: 50%;
-        bottom: 100px;
-        transform: translateX(-50%);
-        
-    }
-
-    .arrow-text {
-        font-size: 10px;
-    }
-
-    .arrow-text-container svg {
-        width: 40px;
-        height: 40px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .navbar {
-        flex-direction: column;
-        text-align: center;
-        width: calc(100% - 160px); /* 80px de cada lado */
-        margin: 0 auto;
-    }
-
-    .hero h1 {
-        font-size: 10vw;
-        max-width: 90%;
-        width: calc(100% - 160px); /* 80px de cada lado */
-        margin: 0 auto;
-    }
-
-    .hero p {
-        font-size: 0.9rem;
-        max-width: 95%;
-    }
-
-    .hero-buttons {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .yellow-btn, .green-btn {
-        width: 80%;
-        text-align: center;
-    }
-
-    .arrow-text-container {
-        bottom: 80px;
-    }
-
-    .arrow-text {
-        font-size: 9px;
-    }
-
-    .arrow-text-container svg {
-        width: 30px;
-        height: 30px;
-    }
-}
