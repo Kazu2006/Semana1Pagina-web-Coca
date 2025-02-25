@@ -6,6 +6,7 @@
     <title>Live Chat Support</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="navar.css"> <!-- css de mi nav y mi hero-->
+    <link rel="stylesheet" href="parte-3.css"> <!-- css parte 3 seccion inferior-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
@@ -19,8 +20,8 @@
             </div>
             <nav class="nav-links">
                 <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Live Chat</a>
+                <a href="#">About Us</a>
+                <a href="#">Our Team</a>
                 <a href="#">Pricing</a>
             </nav>
             <div class="nav-buttons">
@@ -71,9 +72,15 @@
 
         <!-- Iconos flotantes -->
         <div class="floating-icons">
-            <span class="icon email">✉️</span>
-            <span class="icon phone">📞</span>
-            <span class="icon video">📹</span>
+            <span class="icon  video">
+                <img src="assets/iconocam.png" alt="cam">
+            </span>
+            <span class="icon phone"> 
+                <img src="assets/iconotelef.png" alt="telef">
+            </span>
+            <span class="icon email">
+                <img src="assets/iconocorreo.png" alt="correo">
+            </span>
         </div>
     </div>
 </section>
@@ -134,8 +141,9 @@
             </div>
             
             <div class="videoimagen">
-                <img src="assets/videoimgxd.PNG" alt="Video preview">
+                <img src="assets/videoimgxd.PNG" alt="Video">
             </div>
+            
             
     
             <!-- Sección inferior (verde) -->
@@ -185,9 +193,137 @@
             <button class="learn-more">Learn More</button>
         </div>
     </section>
+
+<!-- SECCIÓN DE TESTIMONIOS -->
+<section class="testimonials">
+    <h2>Give our users a great experience</h2>
+    <p>Community building is a field of practices directed toward the creation or enhancement of community among individuals.</p>
     
+<!-- Contenedor de testimonios -->
+<div class="testimonial-container">
+    <!-- Tarjeta 1 -->
+    <div class="testimonial-card">
+        <div class="profile-info">
+            <div class="profile-pic">
+                <img src="assets/ftperfil-mujer.png" alt="Foto de perfil 1">
+            </div>
+            <div class="profile-text">
+                <h3>Jhonatan Albert</h3>
+                <p>CEO, GoTick</p>
+            </div>
+        </div>
+        <blockquote>
+            “They are able to help a startup like mine scale and are very responsive to all our unique needs.”
+        </blockquote>
+        <div class="stars">★ ★ ★ ★ ★ <span>5.0</span></div>
+    </div>
+
+    <!-- Tarjeta 2 -->
+    <div class="testimonial-card">
+        <div class="profile-info">
+            <div class="profile-pic">
+                <img src="assets/ft-hombre.png" alt="Foto de perfil 2">
+            </div>
+            <div class="profile-text">
+                <h3>Michael Johnson</h3>
+                <p>Owner, Code Dev</p>
+            </div>
+        </div>
+        <blockquote>
+            “Division of Labor's creative ideas were great, and working with their team was truly easy.”
+        </blockquote>
+        <div class="stars">★ ★ ★ ★ ★ <span>5.0</span></div>
+    </div>
+
+    <!-- Tarjeta 3 -->
+    <div class="testimonial-card">
+        <div class="profile-info">
+            <div class="profile-pic">
+                <img src="assets/ftperfil-mujer.png" alt="Foto de perfil 3">
+            </div>
+            <div class="profile-text">
+                <h3>Emily Davis</h3>
+                <p>Marketing & Office Coordinator</p>
+            </div>
+        </div>
+        <blockquote>
+            “We were blown away. The combination of social, email, knowledge base, and live chat is exactly what we needed.”
+        </blockquote>
+        <div class="stars">★ ★ ★ ★ ★ <span>5.0</span></div>
+    </div>
+
+    <!-- Tarjeta 4 -->
+    <div class="testimonial-card">
+        <div class="profile-info">
+            <div class="profile-pic">
+                <img src="assets/ft-hombre2.png" alt="Foto de perfil 4">
+            </div>
+            <div class="profile-text">
+                <h3>David Smith</h3>
+                <p>CTO, TechCorp</p>
+            </div>
+        </div>
+        <blockquote>
+            “Their team provided excellent support and helped us streamline our workflow efficiently.”
+        </blockquote>
+        <div class="stars">★ ★ ★ ★ ★ <span>5.0</span></div>
+    </div>
+
+    <!-- Tarjeta 5 -->
+    <div class="testimonial-card">
+        <div class="profile-info">
+            <div class="profile-pic">
+                <img src="assets/ftperfil-mujer2.png" alt="Foto de perfil 5">
+            </div>
+            <div class="profile-text">
+                <h3>Sarah Brown</h3>
+                <p>Project Manager, SoftLabs</p>
+            </div>
+        </div>
+        <blockquote>
+            “Amazing service! They understood our needs and delivered outstanding results.”
+        </blockquote>
+        <div class="stars">★ ★ ★ ★ ★ <span>5.0</span></div>
+    </div>
+
+    <!-- Tarjeta 6 -->
+    <div class="testimonial-card">
+        <div class="profile-info">
+            <div class="profile-pic">
+                <img src="assets/ft-hombre3.png" alt="Foto de perfil 6">
+            </div>
+            <div class="profile-text">
+                <h3>James Wilson</h3>
+                <p>Founder, Startup Inc.</p>
+            </div>
+        </div>
+        <blockquote>
+            “A game changer for our company! The tools and support we received were top-notch.”
+        </blockquote>
+        <div class="stars">★ ★ ★ ★ ★ <span>5.0</span></div>
+    </div>
+</div>
+
+<!-- Botones de navegación -->
+<div class="testimonial-buttons">
+    <button id="prevBtn" class="btn-inactive">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M18 12H6M6 12L10 8M6 12L10 16" stroke="gray" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
     
-    
+    <button id="nextBtn" class="btn-active">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M7 12H18M18 12L14 8M18 12L14 16" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+</div>
+
+
+
+
+      <script src="Javascript.js"></script> 
+
 </body>
 </html>
 
