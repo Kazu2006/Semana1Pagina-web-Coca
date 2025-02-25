@@ -10,7 +10,7 @@
 /* Navbar */
 .navbar {
     background-color: #024731; /* Verde oscuro */
-    padding: 15px 0;
+    padding: 15px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,7 +30,8 @@
 /* Navegación */
 .nav-links {
     display: flex;
-    gap: 40px; /*Separacion del navbar central*/ 
+    align-items: center; /* Centra horizontalmente */
+    gap: 70px; /*Separacion del navbar central*/ 
 }
 
 .nav-links a {
@@ -94,7 +95,7 @@
     background-color: #024731;
     color: white;
     text-align: center;
-    padding: 100px 0;
+    padding: 90px 0;
     position: relative;
     display: flex;
     justify-content: center; /* Centra todo horizontalmente */
@@ -127,12 +128,12 @@
 
 /* Mejorar el título */
 .hero h1 {
-    font-size: 64px;
+    font-size: 84px;
     font-weight: 400;
-    max-width: 500px;
-    margin: 0 auto 35px;
+    padding: 10px;
+    margin: 20px;
     line-height: 1.2;
-    max-width: 50%; /*esto ayuda para ajustar su ancho del texto*/
+    max-width: 100%; /*esto ayuda para ajustar su ancho del texto*/
 
 }
 
@@ -165,8 +166,8 @@
     gap: 10px;
     position: absolute;
     left: 90px; /* Ajusta según necesidad */
-    bottom: 250px; /* Ajusta la posición vertical */
-    transform: translateX(570px); /* Ajuste horizontal */
+    bottom: 260px; /* Ajusta la posición vertical */
+    transform: translateX(560px); /* Ajuste horizontal */
 }
 
 /* Texto estilizado */
@@ -202,7 +203,7 @@
 .yellow-btn {
     background-color: #FFD700;
     color: #024731;
-    padding: 18px 30px;
+    padding: 18px 35px;
     border-radius: 50px;
     font-weight: 700; /*El grosor del texto*/
     text-align: center;
@@ -210,7 +211,7 @@
 
 .green-btn {
     color: #f1ff2e; /* Texto en verde */
-    padding: 18px 30px;
+    padding: 18px 40px;
     border-radius: 50px;
     font-weight: 500; /*El grosor del texto*/   
     border: 1px solid #f1ff2e; /* Borde verde */
@@ -232,7 +233,7 @@
 /* Número de contacto */
 .contact-info {
     position: absolute;
-    left: 90px;
+    left: 115px;
     bottom: 10px;
     display: flex;
     align-items: center;
@@ -250,7 +251,7 @@
 /* Scroll Down */
 .scroll-down {
     position: absolute;
-    right: 120px;
+    right: 130px;
     bottom: 10px;
     color: white;
     display: flex;
@@ -262,28 +263,45 @@
     transform: translateY(-25px);
 }
 
+
+
 /* Iconos flotantes */
 .floating-icons {
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 .icon {
-    background: white;
-    padding: 10px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
-    width: 40px;
-    height: 40px;
+    position: absolute;
+    width: 70px; /* Ajusta el tamaño según tu necesidad */
+
 }
 
+.icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Posiciones específicas */
+.icon.email {
+    bottom: 5%;
+    left: 90%;
+    transform: translateY(-600px);
+}
+
+.icon.phone {
+    width: 90px; /* Ajusta el tamaño según tu necesidad */
+    bottom: 5%;
+    right: 20%;
+    transform: translateY(-150px);
+}
+
+.icon.video {
+    bottom: 5%;
+    right: 90%;
+    transform: translateY(-450px);
+}
 
 
