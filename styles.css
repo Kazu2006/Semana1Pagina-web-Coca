@@ -55,7 +55,7 @@ body {
 
 .messaging {
     background: white;
-    padding: 100px 0;
+    padding: 100px 10px;
     margin: 0 100px; 
 }
 
@@ -144,6 +144,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 100px 10px;
     margin: 0 100px; 
 }
 
@@ -187,14 +188,20 @@ body {
 
 /* Contenedor del video */
 .videoimagen {
-    max-width: 1800px;
+    max-width: 1600px;
+    width: 100%; /* Asegura que se adapte al ancho disponible */
     flex-shrink: 0;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente si es necesario */
+    margin: 0 auto; /* Centra el contenedor en la página */
 }
 
 .videoimagen img {
     width: 100%;
+    max-width: 100%;
+    height: auto; /* Mantiene la proporción */
     border-radius: 20px;
-    height: auto;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -351,6 +358,7 @@ AQUI PUEDO PONER SU MARGIN 80*/
 .learn-more:hover {
     background-color: #092219;
 }
+
 
 
 /**/
