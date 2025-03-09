@@ -1,6 +1,6 @@
 # Caso 2: Réplica de Página Web
 
-Este proyecto consiste en **replicar** la página web mostrada en la imagen adjunta (Coca).
+Este proyecto consiste en **replicar** la página web mostrada en la imagen adjunta en mi caso escoji este:
 
 ![imagen-semana](https://github.com/user-attachments/assets/40aa765b-6a73-4547-917d-4e4765b2c8c7)
 
@@ -13,12 +13,12 @@ El objetivo es recrear el diseño y estructura lo más fielmente posible, En mi 
 
 - **Objetivo**: Construir una página web estática basada en la maqueta proporcionada.
 - **Enfoque**: Replicar el diseño, las secciones, tipografías, colores y disposición de los elementos.
-- **Estado**: Proyecto finalizado / en desarrollo (ajusta según tu progreso).
+- **Estado**: Proyecto en desarrollo (me falta solo mi footer).
 - **YO USE:**:
   - HTML
   - CSS
   - JavaScript (Solo para interacciones o animaciones)
-- **Estructura**: Se organiza en varios archivos (`index.html`, `styles.css`, `script.js`).
+- **Estructura**: Se organiza en varios archivos (`index.html`, `navar.css`,`styles.css`, `parte-3.css`,`Javascript.js`).
 
 ## Capturas de pantalla
 
@@ -51,6 +51,7 @@ El objetivo es recrear el diseño y estructura lo más fielmente posible, En mi 
    - Precios y características de cada plan.
    - Botones de “Elegir Plan”.
 
+  (ME FALTA ESTO, EN DESARROLLO)
 7. **Pie de página (Footer)**  
    - Texto final, enlaces de redes sociales o menús de política de privacidad, etc.
 
@@ -58,10 +59,10 @@ El objetivo es recrear el diseño y estructura lo más fielmente posible, En mi 
 
 - **`index.html`**  
   Contiene la estructura principal del sitio.
-- **`styles.css`**  
+- **`navar.css`, `styles.css`, `parte-3.css`**  
   Reglas de estilo globales (tipografías, colores, layout).
-- **`script.js`** *(opcional)*  
-  Lógica de interacción o animaciones (por ejemplo, manejo de toggles, scroll, etc.).
+- **`Javascript.js`** *(opcional)*  
+  Lógica de interacción o animaciones (por ejemplo, animacion de entrada para todo mi contenido, manejo de toggles, scroll, etc.).
 - **`assets/`**  
   Carpeta con imágenes, íconos y otros recursos estáticos.
 
