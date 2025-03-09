@@ -1,331 +1,389 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Live Chat Support</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="navar.css"> <!-- css de mi nav y mi hero-->
-    <link rel="stylesheet" href="parte-3.css"> <!-- css parte 3 seccion inferior-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soporte de Chat en Vivo</title>
+  <!-- Vinculamos los estilos externos -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="navar.css"> <!-- css de tu nav y hero -->
+  <link rel="stylesheet" href="parte-3.css"> <!-- css de la sección inferior -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Navbar -->
-    <header class="navbar">
-        <div class="container">
-            <div class="logo">
-                <img src="assets/logo-coca.png" alt="Logo">
-            </div>
-            <nav class="nav-links">
-                <a href="#">Home</a>
-                <a href="#">About Us</a>
-                <a href="#">Our Team</a>
-                <a href="#">Pricing</a>
-            </nav>
-            <div class="nav-buttons">
-                <a href="#" class="login-btn">Login</a>
-                <span class="separator"></span>
-                <a href="#" class="signup-btn">Register</a>
-            </div>
-            
-        </div>
-    </header>
-
-<!-- Hero Section -->
-<section class="hero">
+  <!-- Navbar -->
+  <header class="navbar animate-slide-left">
     <div class="container">
-        <!-- Etiqueta encima del título -->
-        <div class="tag">Chat software</div>
-        <h1>Provide real-time <br> support through chat <br> for your customers</h1>
-        <p class="greatsof">Great software that allows you to track, manage <br> and resolve customer support tickets.</p>
-
-        <div class="arrow-text-container">
-            <h4 class="arrow-text">All research <br> starts from here</h4>
-            <svg width="60" height="50" viewBox="0 0 60 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <!-- Curva de la flecha -->
-                <path d="M2 40 C20 50, 45 40, 50 20" stroke="white" stroke-width="4" stroke-linecap="round"/>
-                <!-- Punta de la flecha -->
-                <path d="M50 20 L55 35" stroke="white" stroke-width="4" stroke-linecap="round"/>
-                <path d="M50 20 L39 26" stroke="white" stroke-width="4" stroke-linecap="round"/>
-            </svg>
-        </div>
-        
-
-        <div class="hero-buttons">
-            <a href="#" class="btn yellow-btn">Chatting Now</a>
-            <a href="#" class="btn green-btn">Learn More</a>
-        </div>
-
-        <!-- Número de contacto -->
-        <div class="contact-info">
-            <img src="assets/telf.png" alt="telefono">
-            <p>+182 (283) 343-23-10</p>
-        </div>
-
-        <!-- Scroll Down -->
-        <div class="scroll-down">
-            <img src="assets/mousxd.png" alt="mouse">
-            <p>SCROLL DOWN</p>
-        </div>
-
-        <!-- Iconos flotantes -->
-        <div class="floating-icons">
-            <span class="icon  video">
-                <img src="assets/iconocam.png" alt="cam">
-            </span>
-            <span class="icon phone"> 
-                <img src="assets/iconotelef.png" alt="telef">
-            </span>
-            <span class="icon email">
-                <img src="assets/iconocorreo.png" alt="correo">
-            </span>
-        </div>
+      <div class="logo">
+        <img src="assets/logo-coca.png" alt="Logo">
+      </div>
+      <nav class="nav-links">
+        <a href="#">Inicio</a>
+        <a href="#">Acerca de Nosotros</a>
+        <a href="#">Nuestro Equipo</a>
+        <a href="#">Precios</a>
+      </nav>
+      <div class="nav-buttons">
+        <a href="#" class="login-btn">Iniciar Sesión</a>
+        <span class="separator"></span>
+        <a href="#" class="signup-btn">Registrarse</a>
+      </div>
     </div>
-</section>
+  </header>
 
-        
-    <!-- Sección de Integración con herramientas -->
-    <section class="integrations">
-        <div class="container-integrations">
-        <h2>Effortless integration with your preferred tools</h2>
-            <div class="integration-icons">
-                <img src="assets/1.png" alt="Slack">
-                <img src="assets/2.png" alt="VS Code">
-                <img src="assets/3.png" alt="Spotify">
-                <img src="assets/4.png" alt="Dropbox">
-                <img src="assets/5.png" alt="Zoom">
-                <img src="assets/6.png" alt="Mailchimp">
-                <img src="assets/7.png" alt="Shopify">
-                <img src="assets/8.png" alt="Fxdd">
-                <img src="assets/9.png" alt="gmail">
-                <img src="assets/10.png" alt="fireflox">
-                <img src="assets/11.png" alt="Vxddd">
-                <img src="assets/12.png" alt="applexd">
+  <!-- Sección Hero con animación fade -->
+  <section class="hero animate-slide-right">
+    <div class="container">
+      <div class="tag">Software de Chat</div>
+      <h1>Brinda soporte en tiempo real <br> a través de chat <br> para tus clientes</h1>
+      <p class="greatsof">
+        Excelente software que te permite rastrear, gestionar <br> y resolver solicitudes de soporte.
+      </p>
 
-            </div>
-            
-        </div>
-    </section>
-
-    <!-- Sección de Mensajería Unificada -->
-    <section class="messaging">
-        <div class="messaging-container">
-            <div class="messaging-text">
-                <h2>Access a unified multi-channel messaging solution in one place</h2>
-                <p>Enable your customers to communicate effortlessly through Live Chat, Facebook, Telegram, and numerous other tools, with prompt responses from Coca.</p>
-                <ul>
-                    <li>Engage in real-time chats with visitors, prospects, and customers.</li>
-                    <li>Easily scale personalized conversations without limitations.</li>
-                    <li>Participate in contextual chat conversations on the go.</li>
-                </ul>
-            </div>
-            <div class="messaging-image">
-                <img src="assets/ftdemsj.png" alt="Chat Interface">
-            </div>
-        </div>
-    </section>
-
-
-
-    <!-- Sección de Comunicación y Pedidos -->
-    <section class="communication-orders">
-        <div class="container-comunicacion">
-            <!-- Sección superior (blanca) -->
-            <div class="top-content">
-                <div class="textconta">
-                    <h1 class="tituloxd">Craft a communication strategy using live video chat</h1>
-                    <p class="subtituloxd">Video conferencing enhances productivity and fosters collaboration, making it a versatile tool for achieving these goals.</p>
-                </div>
-            </div>
-            
-            <div class="videoimagen">
-                <img src="assets/videoimgxd.PNG" alt="Video">
-            </div>
-            
-            
-    
-            <!-- Sección inferior (verde) -->
-
-            <div class="bottom-wrapper">
-                <div class="bottom-content">
-                    <div class="orders-text">
-                        <h2>Get direct orders from your customers</h2>
-                        <p class="subtitu">Create custom landing pages with Rare blocks that converts more visitors than any website. With lots of unique blocks easily build a page. There are many variations of passages of available.
-                        </p>
-                        <div class="stats">
-                            <div>
-                                <h5>9.3K+</h5>
-                                <p class="numerosxdd">Website’s Powering</p>
-                            </div>
-                            <div>
-                                <h5>8M+</h5>
-                                <p class="numerosxdd">Chats in Last 2022</p>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="dashboard-image">
-                        <img src="assets/msj-img.png" alt="Dashboard example">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-
-
-    <section class="chatsx-interface">
-        <div class="chatsx-image">
-            <img src="assets/msj.png" alt="Chatsx Interface">
-        </div>
-        <div class="chatsx-text">
-            <h6 class="chatsx-title">An ideal interface for <br> swift, code-free support</h6>
-            <p class="chatsx-paragraph">
-                The Visual Builder enables you to effortlessly create a top-notch AI chatbot with no coding required. 
-                Drag and drop conversational elements, and instantly test them to craft engaging client interactions.
-            </p>
-            <p class="chatsx-paragraph">
-                Experience a modern messaging platform that seamlessly integrates everything essential for effective support, 
-                sales, and engagement, all within a user-friendly interface.
-            </p>
-            <button class="learn-more">Learn More</button>
-        </div>
-    </section>
-
-<!-- SECCIÓN DE TESTIMONIOS -->
-<section class="testimonials">
-    <h2>Give our users a great experience</h2>
-    <p>Community building is a field of practices directed toward the creation or enhancement of community among individuals.</p>
-    
-<!-- Contenedor de testimonios -->
-<div class="testimonial-container">
-    <!-- Tarjeta 1 -->
-    <div class="testimonial-card">
-        <div class="profile-info">
-            <div class="profile-pic">
-                <img src="assets/ftperfil-mujer.png" alt="Foto de perfil 1">
-            </div>
-            <div class="profile-text">
-                <h3>Jhonatan Albert</h3>
-                <p>CEO, GoTick</p>
-            </div>
-        </div>
-        <blockquote>
-            “They are able to help a startup like mine scale and are very responsive to all our unique needs.”
-        </blockquote>
-        <div class="stars">★ ★ ★ ★ ★ <span>5.0</span></div>
-    </div>
-
-    <!-- Tarjeta 2 -->
-    <div class="testimonial-card">
-        <div class="profile-info">
-            <div class="profile-pic">
-                <img src="assets/ft-hombre.png" alt="Foto de perfil 2">
-            </div>
-            <div class="profile-text">
-                <h3>Michael Johnson</h3>
-                <p>Owner, Code Dev</p>
-            </div>
-        </div>
-        <blockquote>
-            “Division of Labor's creative ideas were great, and working with their team was truly easy.”
-        </blockquote>
-        <div class="stars">★ ★ ★ ★ ★ <span>5.0</span></div>
-    </div>
-
-    <!-- Tarjeta 3 -->
-    <div class="testimonial-card">
-        <div class="profile-info">
-            <div class="profile-pic">
-                <img src="assets/ftperfil-mujer.png" alt="Foto de perfil 3">
-            </div>
-            <div class="profile-text">
-                <h3>Emily Davis</h3>
-                <p>Marketing & Office Coordinator</p>
-            </div>
-        </div>
-        <blockquote>
-            “We were blown away. The combination of social, email, knowledge base, and live chat is exactly what we needed.”
-        </blockquote>
-        <div class="stars">★ ★ ★ ★ ★ <span>5.0</span></div>
-    </div>
-
-    <!-- Tarjeta 4 -->
-    <div class="testimonial-card">
-        <div class="profile-info">
-            <div class="profile-pic">
-                <img src="assets/ft-hombre2.png" alt="Foto de perfil 4">
-            </div>
-            <div class="profile-text">
-                <h3>David Smith</h3>
-                <p>CTO, TechCorp</p>
-            </div>
-        </div>
-        <blockquote>
-            “Their team provided excellent support and helped us streamline our workflow efficiently.”
-        </blockquote>
-        <div class="stars">★ ★ ★ ★ ★ <span>5.0</span></div>
-    </div>
-
-    <!-- Tarjeta 5 -->
-    <div class="testimonial-card">
-        <div class="profile-info">
-            <div class="profile-pic">
-                <img src="assets/ftperfil-mujer2.png" alt="Foto de perfil 5">
-            </div>
-            <div class="profile-text">
-                <h3>Sarah Brown</h3>
-                <p>Project Manager, SoftLabs</p>
-            </div>
-        </div>
-        <blockquote>
-            “Amazing service! They understood our needs and delivered outstanding results.”
-        </blockquote>
-        <div class="stars">★ ★ ★ ★ ★ <span>5.0</span></div>
-    </div>
-
-    <!-- Tarjeta 6 -->
-    <div class="testimonial-card">
-        <div class="profile-info">
-            <div class="profile-pic">
-                <img src="assets/ft-hombre3.png" alt="Foto de perfil 6">
-            </div>
-            <div class="profile-text">
-                <h3>James Wilson</h3>
-                <p>Founder, Startup Inc.</p>
-            </div>
-        </div>
-        <blockquote>
-            “A game changer for our company! The tools and support we received were top-notch.”
-        </blockquote>
-        <div class="stars">★ ★ ★ ★ ★ <span>5.0</span></div>
-    </div>
-</div>
-
-<!-- Botones de navegación -->
-<div class="testimonial-buttons">
-    <button id="prevBtn" class="btn-inactive">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-            <path d="M18 12H6M6 12L10 8M6 12L10 16" stroke="gray" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <div class="arrow-text-container">
+        <h4 class="arrow-text">Toda la investigación<br> comienza aquí</h4>
+        <svg width="60" height="50" viewBox="0 0 60 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2 40 C20 50, 45 40, 50 20" stroke="white" stroke-width="4" stroke-linecap="round"/>
+          <path d="M50 20 L55 35" stroke="white" stroke-width="4" stroke-linecap="round"/>
+          <path d="M50 20 L39 26" stroke="white" stroke-width="4" stroke-linecap="round"/>
         </svg>
-    </button>
+      </div>
+
+      <div class="hero-buttons">
+        <a href="#" class="btn yellow-btn">Chatea Ahora</a>
+        <a href="#" class="btn green-btn">Más Información</a>
+      </div>
+
+      <div class="contact-info">
+        <img src="assets/telf.png" alt="Teléfono">
+        <p>+182 (283) 343-23-10</p>
+      </div>
+
+      <div class="scroll-down">
+        <img src="assets/mousxd.png" alt="mouse">
+        <p>DESPLAZAR ABAJO</p>
+      </div>
+
+      <div class="floating-icons">
+        <span class="icon video">
+          <img src="assets/iconocam.png" alt="Cámara">
+        </span>
+        <span class="icon phone">
+          <img src="assets/iconotelef.png" alt="Teléfono">
+        </span>
+        <span class="icon email">
+          <img src="assets/iconocorreo.png" alt="Correo">
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Integración (slide-left) -->
+  <section class="integrations animate-slide-left">
+    <div class="container-integrations">
+      <h2>Integración sin esfuerzo con tus herramientas preferidas</h2>
+      <div class="integration-icons">
+        <img src="assets/1.png" alt="Slack">
+        <img src="assets/2.png" alt="VS Code">
+        <img src="assets/3.png" alt="Spotify">
+        <img src="assets/4.png" alt="Dropbox">
+        <img src="assets/5.png" alt="Zoom">
+        <img src="assets/6.png" alt="Mailchimp">
+        <img src="assets/7.png" alt="Shopify">
+        <img src="assets/8.png" alt="Fxdd">
+        <img src="assets/9.png" alt="Gmail">
+        <img src="assets/10.png" alt="Firefox">
+        <img src="assets/11.png" alt="Vxddd">
+        <img src="assets/12.png" alt="Apple XD">
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Mensajería (slide-right) -->
+  <section class="messaging animate-slide-right">
+    <div class="messaging-container">
+      <div class="messaging-text">
+        <h2>Accede a una solución unificada de mensajería multicanal en un solo lugar</h2>
+        <p>Permite que tus clientes se comuniquen sin esfuerzo a través de Chat en Vivo, Facebook, Telegram y muchas otras herramientas, con respuestas rápidas de Coca.</p>
+        <ul>
+          <li>Participa en chats en tiempo real con visitantes, prospectos y clientes.</li>
+          <li>Escala fácilmente conversaciones personalizadas sin limitaciones.</li>
+          <li>Participa en conversaciones de chat contextuales mientras te desplazas.</li>
+        </ul>
+      </div>
+      <div class="messaging-image">
+        <img src="assets/ftdemsj.png" alt="Interfaz de Chat">
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Comunicación y Pedidos (zoom) -->
+  <section class="communication-orders animate-zoom">
+    <div class="container-comunicacion">
+      <div class="top-content">
+        <div class="textconta">
+          <h1 class="tituloxd">Crea una estrategia de comunicación utilizando chat de video en vivo</h1>
+          <p class="subtituloxd">La videoconferencia mejora la productividad y fomenta la colaboración, convirtiéndola en una herramienta versátil para lograr estos objetivos.</p>
+        </div>
+      </div>
+      <div class="videoimagen">
+        <img src="assets/videoimgxd.PNG" alt="Video">
+      </div>
+      <div class="bottom-wrapper">
+        <div class="bottom-content">
+          <div class="orders-text">
+            <h2>Recibe pedidos directos de tus clientes</h2>
+            <p class="subtitu">
+              Crea páginas de destino personalizadas con bloques únicos que convierten más visitantes que cualquier sitio web. Con numerosos bloques únicos, construye fácilmente una página. Existen muchas variaciones de textos disponibles.
+            </p>
+            <div class="stats">
+              <div>
+                <h5>9.3K+</h5>
+                <p class="numerosxdd">Potenciando sitios web</p>
+              </div>
+              <div>
+                <h5>8M+</h5>
+                <p class="numerosxdd">Chats en 2022</p>
+              </div>
+            </div>
+          </div>
+          <div class="dashboard-image">
+            <img src="assets/msj-img.png" alt="Ejemplo de Dashboard">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Chats Interface (fade) -->
+  <section class="chatsx-interface animate-fade">
+    <div class="chatsx-image">
+      <img src="assets/msj.png" alt="Interfaz de Chats">
+    </div>
+    <div class="chatsx-text">
+      <h6 class="chatsx-title">Una interfaz ideal para un soporte ágil sin necesidad de código</h6>
+      <p class="chatsx-paragraph">
+        El Constructor Visual te permite crear sin esfuerzo un chatbot de IA de primera calidad sin necesidad de programar. Arrastra y suelta elementos conversacionales, y pruébalos al instante para crear interacciones atractivas con los clientes.
+      </p>
+      <p class="chatsx-paragraph">
+        Experimenta una plataforma de mensajería moderna que integra sin problemas todo lo esencial para un soporte, ventas y compromiso efectivos, todo dentro de una interfaz fácil de usar.
+      </p>
+      <button class="learn-more">Más Información</button>
+    </div>
+  </section>
+
+  <!-- Sección de Testimonios (fade) -->
+  <section class="testimonials animate-fade">
+    <h2>Brinda a nuestros usuarios una gran experiencia</h2>
+    <p>La creación de comunidades es un campo de prácticas dirigido a la formación o mejora de la comunidad entre individuos.</p>
     
-    <button id="nextBtn" class="btn-active">
+    <div class="testimonial-container">
+      <!-- Tarjeta 1 -->
+      <div class="testimonial-card">
+        <div class="profile-info">
+          <div class="profile-pic">
+            <img src="assets/ftperfil-mujer.png" alt="Foto de perfil 1">
+          </div>
+          <div class="profile-text">
+            <h3>Jhonatan Albert</h3>
+            <p>CEO, GoTick</p>
+          </div>
+        </div>
+        <blockquote>
+          “Ellos pueden ayudar a una startup como la mía a crecer y son muy receptivos a todas nuestras necesidades.”
+        </blockquote>
+        <div class="stars">★ ★ ★ ★ ★ <span>5.0</span></div>
+      </div>
+
+      <!-- Tarjeta 2 -->
+      <div class="testimonial-card">
+        <div class="profile-info">
+          <div class="profile-pic">
+            <img src="assets/ft-hombre.png" alt="Foto de perfil 2">
+          </div>
+          <div class="profile-text">
+            <h3>Michael Johnson</h3>
+            <p>Propietario, Code Dev</p>
+          </div>
+        </div>
+        <blockquote>
+          “Las ideas creativas de Division of Labor fueron excelentes, y trabajar con su equipo fue realmente sencillo.”
+        </blockquote>
+        <div class="stars">★ ★ ★ ★ ★ <span>5.0</span></div>
+      </div>
+
+      <!-- Tarjeta 3 -->
+      <div class="testimonial-card">
+        <div class="profile-info">
+          <div class="profile-pic">
+            <img src="assets/ftperfil-mujer.png" alt="Foto de perfil 3">
+          </div>
+          <div class="profile-text">
+            <h3>Emily Davis</h3>
+            <p>Coordinadora de Marketing y Oficina</p>
+          </div>
+        </div>
+        <blockquote>
+          “Nos quedamos impresionados. La combinación de redes sociales, correo, base de conocimiento y chat en vivo es justo lo que necesitábamos.”
+        </blockquote>
+        <div class="stars">★ ★ ★ ★ ★ <span>5.0</span></div>
+      </div>
+
+      <!-- Tarjeta 4 -->
+      <div class="testimonial-card">
+        <div class="profile-info">
+          <div class="profile-pic">
+            <img src="assets/ft-hombre2.png" alt="Foto de perfil 4">
+          </div>
+          <div class="profile-text">
+            <h3>David Smith</h3>
+            <p>CTO, TechCorp</p>
+          </div>
+        </div>
+        <blockquote>
+          “Su equipo brindó un soporte excelente y nos ayudó a optimizar nuestro flujo de trabajo de manera eficiente.”
+        </blockquote>
+        <div class="stars">★ ★ ★ ★ ★ <span>5.0</span></div>
+      </div>
+
+      <!-- Tarjeta 5 -->
+      <div class="testimonial-card">
+        <div class="profile-info">
+          <div class="profile-pic">
+            <img src="assets/ftperfil-mujer2.png" alt="Foto de perfil 5">
+          </div>
+          <div class="profile-text">
+            <h3>Sarah Brown</h3>
+            <p>Gerente de Proyectos, SoftLabs</p>
+          </div>
+        </div>
+        <blockquote>
+          “¡Servicio increíble! Entendieron nuestras necesidades y entregaron resultados sobresalientes.”
+        </blockquote>
+        <div class="stars">★ ★ ★ ★ ★ <span>5.0</span></div>
+      </div>
+
+      <!-- Tarjeta 6 -->
+      <div class="testimonial-card">
+        <div class="profile-info">
+          <div class="profile-pic">
+            <img src="assets/ft-hombre3.png" alt="Foto de perfil 6">
+          </div>
+          <div class="profile-text">
+            <h3>James Wilson</h3>
+            <p>Fundador, Startup Inc.</p>
+          </div>
+        </div>
+        <blockquote>
+          “¡Un cambio radical para nuestra empresa! Las herramientas y el soporte que recibimos fueron de primera.”
+        </blockquote>
+        <div class="stars">★ ★ ★ ★ ★ <span>5.0</span></div>
+      </div>
+    </div>
+
+    <div class="testimonial-buttons">
+      <button id="prevBtn" class="btn-inactive">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-            <path d="M7 12H18M18 12L14 8M18 12L14 16" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M18 12H6M6 12L10 8M6 12L10 16" stroke="gray" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
-    </button>
-</div>
+      </button>
+      <button id="nextBtn" class="btn-active">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M7 12H18M18 12L14 8M18 12L14 16" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+    </div>
+  </section>
 
+  <!-- Sección de Precios (segunda iteración, con animación fade) -->
+  <section class="pricing-section animate-fade">
+    <div class="pricing-header">
+      <h8>Planes de Precios</h8>
+      <p class="subtitle">
+        Software de Chat Coca. Todos los planes incluyen una prueba gratuita de 14 días de nuestras funciones Premium.
+      </p>
+      <div class="toggle-billing">
+        <button class="toggle-btn active">Mensual</button>
+        <button class="toggle-btn">Anual</button>
+      </div>
+    </div>
 
+    <div class="pricing-wrapper">
+      <div class="pricing-cards">
+        <!-- SILVER CARD -->
+        <div class="card">
+          <h9 class="plan-title">SILVER</h9>
+          <p class="pricexddd">
+            $50<span>/mes</span>
+          </p>
+          <ul class="features">
+            <li>Sin Descuento</li>
+            <li>Soporte Básico</li>
+            <li>Sin Anuncios</li>
+            <li>Estilo de Diseño</li>
+            <li>Librería de Componentes</li>
+            <li>Todos los enlaces limitados</li>
+            <li>Plataforma de analíticas propia</li>
+            <li>Soporte por chat</li>
+            <li>Optimización de hashtags</li>
+            <li>Usuarios Ilimitados</li>
+          </ul>
+          <button class="choose-plan">Elegir Plan</button>
+        </div>
 
+        <!-- GOLD CARD -->
+        <div class="card">
+          <h9 class="plan-title">GOLD</h9>
+          <p class="pricexddd">
+            $100<span>/mes</span>
+          </p>
+          <ul class="features">
+            <li>Sin Descuento</li>
+            <li>Soporte Básico</li>
+            <li>Sin Anuncios</li>
+            <li>Estilo de Diseño</li>
+            <li>Librería de Componentes</li>
+            <li>Todos los enlaces limitados</li>
+            <li>Plataforma de analíticas propia</li>
+            <li>Soporte por chat</li>
+            <li>Optimización de hashtags</li>
+            <li>Usuarios Ilimitados</li>
+          </ul>
+          <button class="choose-plan">Elegir Plan</button>
+        </div>
 
-      <script src="Javascript.js"></script> 
+        <!-- PREMIUM CARD -->
+        <div class="card">
+          <h9 class="plan-title">PREMIUM</h9>
+          <p class="pricexddd">
+            $150<span>/mes</span>
+          </p>
+          <ul class="features">
+            <li>Sin Descuento</li>
+            <li>Soporte Básico</li>
+            <li>Sin Anuncios</li>
+            <li>Estilo de Diseño</li>
+            <li>Librería de Componentes</li>
+            <li>Todos los enlaces limitados</li>
+            <li>Plataforma de analíticas propia</li>
+            <li>Soporte por chat</li>
+            <li>Optimización de hashtags</li>
+            <li>Usuarios Ilimitados</li>
+          </ul>
+          <button class="choose-plan">Elegir Plan</button>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- Vinculamos el archivo JavaScript -->
+  <script src="Javascript.js"></script>
 </body>
 </html>
+
+
 
 
 
