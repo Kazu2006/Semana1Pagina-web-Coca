@@ -1,27 +1,31 @@
 # Caso 2: Réplica de Página Web
 
-Este proyecto consiste en **replicar** la página web mostrada en la imagen adjunta (Coca landing page). 
+Este proyecto consiste en **replicar** la página web mostrada en la imagen adjunta (Coca).
+
+![imagen-semana](https://github.com/user-attachments/assets/40aa765b-6a73-4547-917d-4e4765b2c8c7)
+
+
 El objetivo es recrear el diseño y estructura lo más fielmente posible, En mi caso yo Utilize HTML, CSS y JavaScript.
 
 
 
 ## Descripción
 
-- **Objetivo**: Construir una página web estática basada en la maqueta proporcionada (ver imagen).
+- **Objetivo**: Construir una página web estática basada en la maqueta proporcionada.
 - **Enfoque**: Replicar el diseño, las secciones, tipografías, colores y disposición de los elementos.
 - **Estado**: Proyecto finalizado / en desarrollo (ajusta según tu progreso).
-- **Tecnologías principales**:
-  - HTML5
-  - CSS3
-  - JavaScript (opcional para interacciones o animaciones)
-- **Estructura**: Se organiza en varios archivos (por ejemplo, `index.html`, `styles.css`, `script.js`).
+- **YO USE:**:
+  - HTML
+  - CSS
+  - JavaScript (Solo para interacciones o animaciones)
+- **Estructura**: Se organiza en varios archivos (`index.html`, `styles.css`, `script.js`).
 
 ## Capturas de pantalla
 
-*(Opcional)*  
-Si lo deseas, añade capturas de tu réplica final comparándola con la maqueta.
+*(PRUEBA)*  
 
-## Secciones replicadas
+
+## Secciones replicadas:
 
 1. **Encabezado (Header)**  
    - Barra de navegación con logotipo y enlaces.
@@ -37,7 +41,7 @@ Si lo deseas, añade capturas de tu réplica final comparándola con la maqueta.
 
 4. **Sección de Comunicación y Pedidos**  
    - Sub-secciones para videochat y pedidos directos.
-   - Estadísticas de uso (ejemplo: “9.3K+ Website’s Powering”, “8M+ Chats”).
+   - Estadísticas de uso (“9.3K+ Website’s Powering”, “8M+ Chats”).
 
 5. **Testimonios**  
    - Tarjetas con testimonios de usuarios y calificaciones.
@@ -61,8 +65,5 @@ Si lo deseas, añade capturas de tu réplica final comparándola con la maqueta.
 - **`assets/`**  
   Carpeta con imágenes, íconos y otros recursos estáticos.
 
-## Cómo Ejecutar
-
-1. Clona este repositorio en tu máquina local:
-   ```bash
-   git clone https://github.com/tu-usuario/tu-repo.git
+## Autor:
+-Fabricio Paolo Leiva Salazar (front-end)
