@@ -128,8 +128,8 @@
 
 /* Mejorar el título */
 .hero h1 {
-    font-size: 84px;
-    font-weight: 400;
+    font-size: 74px;
+    font-weight: 500;
     padding: 10px;
     margin: 20px;
     line-height: 1.2;
@@ -165,8 +165,8 @@
     align-items: center;
     gap: 10px;
     position: absolute;
-    left: 90px; /* Ajusta según necesidad */
-    bottom: 260px; /* Ajusta la posición vertical */
+    left: 60px; /* Ajusta según necesidad */
+    bottom: 240px; /* Ajusta la posición vertical */
     transform: translateX(560px); /* Ajuste horizontal */
 }
 
@@ -288,20 +288,22 @@
 .icon.email {
     bottom: 5%;
     left: 90%;
-    transform: translateY(-600px);
+    transform: translateY(-540px);
 }
 
 .icon.phone {
     width: 90px; /* Ajusta el tamaño según tu necesidad */
     bottom: 5%;
-    right: 20%;
-    transform: translateY(-150px);
+    right: 15%;
+    transform: translateY(-200px);
 }
 
 .icon.video {
     bottom: 5%;
     right: 90%;
-    transform: translateY(-450px);
+    transform: translateY(-400px);
 }
+
+
 
 
