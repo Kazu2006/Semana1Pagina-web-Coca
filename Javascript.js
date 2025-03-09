@@ -1,72 +1,120 @@
+/***************************************************************
+ * Animación de Secciones con Intersection Observer
+ ***************************************************************/
+document.addEventListener('DOMContentLoaded', () => {
+  // Selecciona todos los elementos con alguna clase de animación personalizada.
+  const animatedElements = document.querySelectorAll(
+    '.animate-fade, .animate-slide-left, .animate-slide-right, .animate-zoom, .animate-slide-down'
+  );
 
-// Obtenemos todas las tarjetas de testimonio
+  const observerOptions = {
+    threshold: 0.2 // Se activa cuando el 20% es visible
+  };
+
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target); // Animación una sola vez
+      }
+    });
+  }, observerOptions);
+
+  animatedElements.forEach(el => {
+    observer.observe(el);
+  });
+});
+
+/***************************************************************
+ * Carrusel de Testimonios (opcional)
+ ***************************************************************/
 const testimonialCards = document.querySelectorAll('.testimonial-card');
-// Calculamos cuántos grupos de 3 hay
 const totalSlides = Math.ceil(testimonialCards.length / 3);
+let currentSlide = 0;
 
-let currentSlide = 0; // Empezamos en el grupo 0 (primer grupo de 3)
-
-// Función para mostrar un grupo de 3 testimonios según el índice de slide
 function showSlide(slideIndex) {
-  // Ocultamos todas las tarjetas
   testimonialCards.forEach(card => {
     card.style.display = 'none';
   });
-  
-  // Mostramos solo las 3 tarjetas correspondientes a ese slide
   const startIndex = slideIndex * 3;
   for (let i = startIndex; i < startIndex + 3; i++) {
     if (testimonialCards[i]) {
       testimonialCards[i].style.display = 'block';
     }
   }
-  // Actualizamos el estilo de los botones
   updateButtons();
 }
 
-// Función para cambiar el color de los botones según el slide actual
 function updateButtons() {
   const prevBtn = document.getElementById('prevBtn');
   const nextBtn = document.getElementById('nextBtn');
-
-  // Removemos clases previas
   prevBtn.classList.remove('btn-active', 'btn-inactive');
   nextBtn.classList.remove('btn-active', 'btn-inactive');
 
-  // Si estamos en el primer slide
   if (currentSlide === 0) {
     prevBtn.classList.add('btn-inactive');
     nextBtn.classList.add('btn-active');
-  }
-  // Si estamos en el último slide
-  else if (currentSlide === totalSlides - 1) {
+  } else if (currentSlide === totalSlides - 1) {
     prevBtn.classList.add('btn-active');
     nextBtn.classList.add('btn-inactive');
-  }
-  // Si hay slides intermedios
-  else {
+  } else {
     prevBtn.classList.add('btn-active');
     nextBtn.classList.add('btn-active');
   }
 }
 
-
-// Botón "Prev"
-document.getElementById('prevBtn').addEventListener('click', () => {
+document.getElementById('prevBtn')?.addEventListener('click', () => {
   if (currentSlide > 0) {
     currentSlide--;
     showSlide(currentSlide);
   }
 });
-
-// Botón "Next"
-document.getElementById('nextBtn').addEventListener('click', () => {
+document.getElementById('nextBtn')?.addEventListener('click', () => {
   if (currentSlide < totalSlides - 1) {
     currentSlide++;
     showSlide(currentSlide);
   }
 });
-
-// Mostramos inicialmente el primer grupo (slide 0)
 showSlide(currentSlide);
+
+/***************************************************************
+ * Lógica para destacar la tarjeta de Pricing
+ ***************************************************************/
+document.addEventListener('DOMContentLoaded', () => {
+  const cards = document.querySelectorAll('.pricing-cards .card');
+
+  // Destaca la tarjeta central (Gold) por defecto (segunda tarjeta)
+  const defaultCard = cards[1];
+  defaultCard.classList.add('featured');
+  const defaultButton = defaultCard.querySelector('.choose-plan');
+  defaultButton.classList.add('featured-btn');
+
+  // Crear y añadir el sello "MOST POPULAR"
+  let defaultLabel = document.createElement('div');
+  defaultLabel.classList.add('most-popular');
+  defaultLabel.innerText = 'MOST POPULAR';
+  defaultCard.appendChild(defaultLabel);
+
+  // Agregar evento click a cada tarjeta para destacar la seleccionada
+  cards.forEach(card => {
+    card.addEventListener('click', () => {
+      cards.forEach(c => {
+        c.classList.remove('featured');
+        c.querySelector('.choose-plan').classList.remove('featured-btn');
+        const mp = c.querySelector('.most-popular');
+        if (mp) mp.remove();
+      });
+      card.classList.add('featured');
+      const button = card.querySelector('.choose-plan');
+      button.classList.add('featured-btn');
+
+      const newLabel = document.createElement('div');
+      newLabel.classList.add('most-popular');
+      newLabel.innerText = 'MOST POPULAR';
+      card.appendChild(newLabel);
+    });
+  });
+});
+
+
 
