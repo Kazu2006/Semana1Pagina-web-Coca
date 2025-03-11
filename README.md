@@ -18,7 +18,7 @@ El objetivo es recrear el diseño y estructura lo más fielmente posible, En mi 
   - HTML
   - CSS
   - JavaScript (Solo para interacciones o animaciones)
-- **Estructura**: Se organiza en varios archivos (`index.html`, `navar.css`,`styles.css`, `parte-3.css`,`Javascript.js`).
+- **Estructura**: Se organiza en varios archivos (`index.html`, `navar.css`,`styles.css`, `parte-3.css`,`Javascript.js`,`chatbot.js`).
 
 ## Capturas de pantalla
 
@@ -61,10 +61,11 @@ El objetivo es recrear el diseño y estructura lo más fielmente posible, En mi 
   Contiene la estructura principal del sitio.
 - **`navar.css`, `styles.css`, `parte-3.css`**  
   Reglas de estilo globales (tipografías, colores, layout).
-- **`Javascript.js`** *(opcional)*  
+- **`Javascript.js`, `chatbot.js`** *(opcional)*  
   Lógica de interacción o animaciones (por ejemplo, animacion de entrada para todo mi contenido, manejo de toggles, scroll, etc.).
 - **`assets/`**  
   Carpeta con imágenes, íconos y otros recursos estáticos.
 
 ## Autor:
--Fabricio Paolo Leiva Salazar (front-end)
+-Fabricio Paolo Leiva Salazar 
+-AREA (front-end)
