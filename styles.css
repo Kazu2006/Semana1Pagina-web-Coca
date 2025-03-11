@@ -5,7 +5,6 @@ body {
     background-color: white;
 }
 
-
 /* Sección de Integraciones */
 .integrations {
     background: white;
@@ -16,7 +15,6 @@ body {
     flex-direction: column;
     align-items: center;
 }
-
 
 /* Estiliza el título */
 .integrations h2 {
@@ -203,13 +201,6 @@ body {
     border-radius: 20px;
     transition: transform 0.3s ease-in-out;
 }
-
-
-/* Efecto hover 
-.videoimagen img:hover {
-
-}*/
-
 
 
 /* Sección inferior con fondo verde
