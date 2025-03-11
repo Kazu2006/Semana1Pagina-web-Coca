@@ -136,7 +136,6 @@ body {
 /* Sección de Comunicación y Pedidos */
 .communication-orders {
     background: linear-gradient(to bottom, #ffffff 30%, #024731 0%);
-    padding: 100px 0;
 }
 
 /* Contenedor general */
@@ -172,7 +171,7 @@ body {
     line-height: 1.2;
     padding: 10px 0;
     text-align: left;
-    max-width: 50%;
+    max-width: 55%;
 }
 
 /* Ajuste del subtítulo */
@@ -216,10 +215,10 @@ body {
 /* Sección inferior con fondo verde
 AQUI PUEDO PONER SU MARGIN 80*/
 .bottom-wrapper {
+    padding-top: 100px;
     max-width: 1800px;
     position: relative;
     width: 100%;
-    padding: 150px 0;
 }
 
 /* Contenedor del contenido verde */
@@ -361,7 +360,6 @@ AQUI PUEDO PONER SU MARGIN 80*/
 
 
 
-/**/
 
 
 /* Responsividad */
@@ -382,5 +380,6 @@ AQUI PUEDO PONER SU MARGIN 80*/
         max-width: 100%;
     }
 }
+
 
 
