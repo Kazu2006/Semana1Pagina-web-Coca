@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Crear y añadir el sello "MOST POPULAR"
   let defaultLabel = document.createElement('div');
   defaultLabel.classList.add('most-popular');
-  defaultLabel.innerText = 'MOST POPULAR';
+  defaultLabel.innerText = 'MAS POPULAR';
   defaultCard.appendChild(defaultLabel);
 
   // Agregar evento click a cada tarjeta para destacar la seleccionada
@@ -110,11 +110,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const newLabel = document.createElement('div');
       newLabel.classList.add('most-popular');
-      newLabel.innerText = 'MOST POPULAR';
+      newLabel.innerText = 'MAS POPULAR';
       card.appendChild(newLabel);
     });
   });
 });
+
 
 
 
