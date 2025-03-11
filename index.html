@@ -14,8 +14,8 @@
 <body>
 
   <!-- Navbar -->
-  <header class="navbar animate-slide-left">
-    <div class="container">
+  <header class="navbar">
+    <div class="container animate-slide-left">
       <div class="logo">
         <img src="assets/logo-coca.png" alt="Logo">
       </div>
@@ -34,10 +34,10 @@
   </header>
 
   <!-- Sección Hero con animación fade -->
-  <section class="hero animate-slide-right">
-    <div class="container">
+  <section class="hero">
+    <div class="container animate-fade">
       <div class="tag">Software de Chat</div>
-      <h1>Brinda soporte en tiempo real <br> a través de chat <br> para tus clientes</h1>
+      <h1>Brinda soporte en tiempo<br>real a través de chat<br>para tus clientes</h1>
       <p class="greatsof">
         Excelente software que te permite rastrear, gestionar <br> y resolver solicitudes de soporte.
       </p>
@@ -120,20 +120,20 @@
   </section>
 
   <!-- Sección de Comunicación y Pedidos (zoom) -->
-  <section class="communication-orders animate-zoom">
+  <section class="communication-orders">
     <div class="container-comunicacion">
       <div class="top-content">
         <div class="textconta">
-          <h1 class="tituloxd">Crea una estrategia de comunicación utilizando chat de video en vivo</h1>
-          <p class="subtituloxd">La videoconferencia mejora la productividad y fomenta la colaboración, convirtiéndola en una herramienta versátil para lograr estos objetivos.</p>
+          <h1 class="tituloxd animate-slide-left">Crea una estrategia de comunicación utilizando chat de video en vivo</h1>
+          <p class="subtituloxd animate-slide-right">La videoconferencia mejora la productividad y fomenta la colaboración, convirtiéndola en una herramienta versátil para lograr estos objetivos.</p>
         </div>
       </div>
-      <div class="videoimagen">
+      <div class="videoimagen animate-zoom">
         <img src="assets/videoimgxd.PNG" alt="Video">
       </div>
       <div class="bottom-wrapper">
         <div class="bottom-content">
-          <div class="orders-text">
+          <div class="orders-text animate-slide-left">
             <h2>Recibe pedidos directos de tus clientes</h2>
             <p class="subtitu">
               Crea páginas de destino personalizadas con bloques únicos que convierten más visitantes que cualquier sitio web. Con numerosos bloques únicos, construye fácilmente una página. Existen muchas variaciones de textos disponibles.
@@ -149,7 +149,7 @@
               </div>
             </div>
           </div>
-          <div class="dashboard-image">
+          <div class="dashboard-image animate-slide-down">
             <img src="assets/msj-img.png" alt="Ejemplo de Dashboard">
           </div>
         </div>
@@ -158,11 +158,11 @@
   </section>
 
   <!-- Sección de Chats Interface (fade) -->
-  <section class="chatsx-interface animate-fade">
-    <div class="chatsx-image">
+  <section class="chatsx-interface">
+    <div class="chatsx-image animate-zoom">
       <img src="assets/msj.png" alt="Interfaz de Chats">
     </div>
-    <div class="chatsx-text">
+    <div class="chatsx-text animate-slide-right">
       <h6 class="chatsx-title">Una interfaz ideal para un soporte ágil sin necesidad de código</h6>
       <p class="chatsx-paragraph">
         El Constructor Visual te permite crear sin esfuerzo un chatbot de IA de primera calidad sin necesidad de programar. Arrastra y suelta elementos conversacionales, y pruébalos al instante para crear interacciones atractivas con los clientes.
@@ -174,14 +174,18 @@
     </div>
   </section>
 
+
+
   <!-- Sección de Testimonios (fade) -->
-  <section class="testimonials animate-fade">
-    <h2>Brinda a nuestros usuarios una gran experiencia</h2>
-    <p>La creación de comunidades es un campo de prácticas dirigido a la formación o mejora de la comunidad entre individuos.</p>
-    
+  <section class="testimonials">
+    <div class="text-comen animate-fade">
+      <h2>Brinda a nuestros usuarios una gran experiencia</h2>
+      <p>La creación de comunidades es un campo de prácticas dirigido a la formación o mejora de la comunidad entre individuos.</p>
+  </div>
+
     <div class="testimonial-container">
       <!-- Tarjeta 1 -->
-      <div class="testimonial-card">
+      <div class="testimonial-card animate-slide-left">
         <div class="profile-info">
           <div class="profile-pic">
             <img src="assets/ftperfil-mujer.png" alt="Foto de perfil 1">
@@ -198,7 +202,7 @@
       </div>
 
       <!-- Tarjeta 2 -->
-      <div class="testimonial-card">
+      <div class="testimonial-card animate-zoom">
         <div class="profile-info">
           <div class="profile-pic">
             <img src="assets/ft-hombre.png" alt="Foto de perfil 2">
@@ -215,7 +219,7 @@
       </div>
 
       <!-- Tarjeta 3 -->
-      <div class="testimonial-card">
+      <div class="testimonial-card animate-slide-right">
         <div class="profile-info">
           <div class="profile-pic">
             <img src="assets/ftperfil-mujer.png" alt="Foto de perfil 3">
@@ -283,7 +287,7 @@
       </div>
     </div>
 
-    <div class="testimonial-buttons">
+    <div class="testimonial-buttons animate-fade">
       <button id="prevBtn" class="btn-inactive">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
           <path d="M18 12H6M6 12L10 8M6 12L10 16" stroke="gray" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -298,8 +302,8 @@
   </section>
 
   <!-- Sección de Precios (segunda iteración, con animación fade) -->
-  <section class="pricing-section animate-fade">
-    <div class="pricing-header">
+  <section class="pricing-section">
+    <div class="pricing-header animate-fade">
       <h8>Planes de Precios</h8>
       <p class="subtitle">
         Software de Chat Coca. Todos los planes incluyen una prueba gratuita de 14 días de nuestras funciones Premium.
@@ -314,7 +318,8 @@
       <div class="pricing-cards">
         <!-- SILVER CARD -->
         <div class="card">
-          <h9 class="plan-title">SILVER</h9>
+          <div class="animate-slide-left">
+          <h9 class="plan-title">PLATA</h9>
           <p class="pricexddd">
             $50<span>/mes</span>
           </p>
@@ -331,11 +336,13 @@
             <li>Usuarios Ilimitados</li>
           </ul>
           <button class="choose-plan">Elegir Plan</button>
+          </div>
         </div>
 
         <!-- GOLD CARD -->
         <div class="card">
-          <h9 class="plan-title">GOLD</h9>
+          <div class="animate-fade">
+          <h9 class="plan-title">ORO</h9>
           <p class="pricexddd">
             $100<span>/mes</span>
           </p>
@@ -352,10 +359,12 @@
             <li>Usuarios Ilimitados</li>
           </ul>
           <button class="choose-plan">Elegir Plan</button>
+          </div>
         </div>
 
         <!-- PREMIUM CARD -->
         <div class="card">
+          <div class="animate-slide-right">
           <h9 class="plan-title">PREMIUM</h9>
           <p class="pricexddd">
             $150<span>/mes</span>
@@ -373,6 +382,7 @@
             <li>Usuarios Ilimitados</li>
           </ul>
           <button class="choose-plan">Elegir Plan</button>
+          </div>
         </div>
       </div>
     </div>
@@ -382,6 +392,7 @@
   <script src="Javascript.js"></script>
 </body>
 </html>
+
 
 
 
