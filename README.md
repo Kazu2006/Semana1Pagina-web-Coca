@@ -21,8 +21,9 @@ El objetivo es recrear el diseño y estructura lo más fielmente posible, En mi 
 - **Estructura**: Se organiza en varios archivos (`index.html`, `navar.css`,`styles.css`, `parte-3.css`,`Javascript.js`,`chatbot.js`).
 
 ## Capturas de pantalla
+**Prueba de mi Pagina Web** 
 
-*(PRUEBA)*  
+![PRUEBA](https://github.com/user-attachments/assets/bcf0f467-2896-4bee-89c1-b18e678424c1)
 
 
 ## Secciones replicadas:
