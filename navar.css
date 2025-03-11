@@ -128,22 +128,21 @@
 
 /* Mejorar el título */
 .hero h1 {
-    font-size: 70px;
+    font-size: 80px;
     font-weight: 500;
     padding: 10px;
     margin: 20px;
     line-height: 1.2;
-    max-width: 100%; /*esto ayuda para ajustar su ancho del texto*/
+    max-width: 59%; /*esto ayuda para ajustar su ancho del texto*/
 
 }
 
 
-
 /* Mejorar el subtítulo */
 .hero p {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 300;
-    max-width: 650px;
+    max-width: 400px;
     margin: 0 auto 50px;
     line-height: 1.5;
 }
@@ -162,20 +161,18 @@
 /* Contenedor de texto y flecha */
 .arrow-text-container {
     display: flex;
-    align-items: center;
-    gap: 10px;
     position: absolute;
     left: 60px; /* Ajusta según necesidad */
-    bottom: 250px; /* Ajusta la posición vertical */
-    transform: translateX(560px); /* Ajuste horizontal */
+    bottom: 260px; /* Ajusta la posición vertical */
+    transform: translateX(580px); /* Ajuste horizontal */
 }
 
 /* Texto estilizado */
 .arrow-text {
+    max-width: 60%; /*esto ayuda para ajustar su ancho del texto*/
     color: white;
     font: oblique bold 70% cursive;
-    transform: rotate(6deg); /* Inclinación más natural */
-    white-space: nowrap; /* Evita que el texto se divida */
+    transform: rotate(12deg); /* Inclinación más natural */
 }
 
 /* Flecha SVG mejorada */
@@ -205,13 +202,13 @@
     color: #024731;
     padding: 18px 35px;
     border-radius: 50px;
-    font-weight: 700; /*El grosor del texto*/
+    font-weight: 600; /*El grosor del texto*/
     text-align: center;
 }
 
 .green-btn {
     color: #f1ff2e; /* Texto en verde */
-    padding: 18px 40px;
+    padding: 18px 35px;
     border-radius: 50px;
     font-weight: 500; /*El grosor del texto*/   
     border: 1px solid #f1ff2e; /* Borde verde */
