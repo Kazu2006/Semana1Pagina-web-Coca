@@ -7,10 +7,10 @@
 
 /* Estilos del título */
 .testimonials h2 {
-    font-weight: 500;
-    font-size: 48px;
+    font-weight: 600;
+    font-size: 50px;
     color: #0A0A0A;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.1rem;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -27,7 +27,7 @@
 .testimonial-container {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 70px;
 }
 
 /* Tarjeta individual */
@@ -167,7 +167,7 @@
   /* Título grande (h8) */
   .pricing-header {
     display: block;
-    font-size: 55px;
+    font-size: 68px;
     font-weight: 600;
     margin: 0;
     color: #000000;
@@ -177,6 +177,7 @@
   .subtitle {
     color: #555;
     font-size: 16px;
+    font-weight: 500;
     line-height: 1.5;
     max-width: 600px;
     margin: 0.5rem auto 1.5rem;
@@ -427,5 +428,225 @@
 }
 
 
+
+
+/* Sección PLAYSTORE */
+/****************************************************
+ *  SECCIÓN PRINCIPAL
+ ****************************************************/
+ .trial-section {
+  max-width: 100%;
+  margin: 0 100px;
+  text-align: center;
+  padding: 100px 0;
+  background-color: #fff; /* Ajusta si necesitas otro color de fondo */
+}
+
+.trial-section .titleXDD {
+  padding: 10px 150px;
+  font-size: 64px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.trial-section .subtitlexddd {
+  font-size: 18px;
+  color: #555;
+  max-width: 600px;
+  padding-bottom: 50px;
+  margin: 0 auto 2rem; /* Centra y separa el texto */
+}
+
+/****************************************************
+ *  CONTENEDOR DE BOTONES
+ ****************************************************/
+.store-buttons {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  gap: 2rem;              /* Espacio entre los botones */
+}
+
+/****************************************************
+ *  ESTILO GENERAL DE CADA BOTÓN
+ ****************************************************/
+.store-button {
+  display: flex;            /* Ícono + texto en la misma fila */
+  align-items: center;      /* Alinea verticalmente */
+  border-radius: 8px;
+  padding: 0.1rem 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;     /* Hereda la fuente */
+  font-size: 1rem;          /* Ajusta según tu preferencia */
+  border: 2px solid transparent;
+  text-decoration: none;    /* Quita el subrayado si fuera <a> */
+  min-height: 50px;         /* Para que ambos tengan altura mínima similar */
+}
+
+/* Ícono dentro del botón */
+.store-button img {
+  width: 38px;     /* Ajusta según tu gusto */
+  height: 48px;
+  position: static;
+  display: flex;
+}
+
+/* Contenedor del texto (para las 2 líneas) */
+.store-button .text-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.75rem;  /* Espacio entre ícono y texto */
+  line-height: 1.2;      /* Ajusta el interlineado */
+}
+
+/* Texto superior (ej. "GET IT ON" / "Download on the") */
+.store-button .partuno {
+  display: flex;
+  font-size: 0.75rem;
+  font-weight: 400;      /* Más delgado que la segunda línea */
+  letter-spacing: 0.5px; /* Un toque de espaciado */
+  margin-bottom: 1px;    /* Espacio muy sutil entre líneas */
+}
+
+/* Texto inferior (ej. "Google Play" / "App Store") */
+.store-button .partdos {
+  text-align: left;
+  font-size: 18px;
+  max-width: 200px;
+  font-weight: 500;
+}
+
+/****************************************************
+ *  BOTÓN GOOGLE PLAY
+ ****************************************************/
+.google-play {
+  background-color: #0B0B45; /* Fondo oscuro */
+  color: #fff;               /* Texto claro */
+  border-color: #0B0B45;     /* Borde del mismo color */
+}
+
+.google-play:hover {
+  border: 2px solid rgb(0, 255, 21);
+}
+
+/****************************************************
+ *  BOTÓN APP STORE
+ ****************************************************/
+.app-store {
+  background-color: #fff;      /* Fondo blanco */
+  color: #0B0B45;              /* Texto oscuro */
+  border-color: #0B0B45;       /* Borde oscuro */
+}
+
+.app-store:hover {
+  border: 2px solid rgb(9, 255, 0);
+}
+
+
+
+
+/*BOTON LENGUAJE*/
+.language-selector {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column; /* Alineación vertical */
+  gap: 0.5rem;
+  z-index: 1000;
+}
+
+.lang-btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid #0B0B45;
+  background: #fff;
+  color: #0B0B45;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.lang-btn.active {
+  background: #0B0B45;
+  color: #fff;
+}
+
+.lang-btn:hover {
+  background: #f5f5f5;
+}
+
+
+/*CHATBOT*/
+.chat-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #007bff;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 24px;
+  text-align: center;
+}
+
+.chat-container {
+  display: none;
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  width: 350px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header {
+  background: #007bff;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.chat-content {
+  display: flex;
+  flex-direction: row; /* Alinea en columnas */
+}
+
+.chat-buttons {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 10px;
+  border-right: 1px solid #ccc;
+}
+
+.chat-buttons button {
+  margin-bottom: 5px;
+  padding: 8px;
+  border: none;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: left;
+  width: 100%;
+}
+
+.chat-buttons button:hover {
+  background: #0056b3;
+}
+
+.chat-box {
+  width: 60%;
+  max-height: 250px;
+  overflow-y: auto;
+  padding: 10px;
+}
 
 
