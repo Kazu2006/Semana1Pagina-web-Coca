@@ -151,13 +151,9 @@
     height: 200px;
 }
 
-
-
 /************************************
  * SECCIÓN DE PRECIOS (Pricing Plans)
  ************************************/
-
-/* Contenedor principal de la sección */
 .pricing-section {
     text-align: center;
     padding: 100px 20px;
@@ -323,16 +319,6 @@
     margin-bottom: 1rem;
   }
 
-    /* Título (h9) 
-    .featured  .plan-title {
-        font-size: 18px;
-        font-weight: 600;
-        text-transform: uppercase;
-        color: #ffffff;
-    }
-*/
-
-  
   /* Checks en la tarjeta destacada: circulito blanco, "✓" verde */
   .featured .features li::before {
     background-color: rgba(148, 151, 148, 0.2);
@@ -355,11 +341,6 @@
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   }
   
-  /* 
-     Botón destacado => 
-     Se agrega dinámicamente con .classList.add('featured-btn') en el JS
-     Esto hará que el botón se vuelva amarillo.
-  */
   .featured-btn {
     background: #ffd600; /* Amarillo */
     border: none;
@@ -368,8 +349,6 @@
     border-radius: 50px;
   }
 
-
-  
 /************************************
  * ANIMACIONES DE ENTRADA
  ************************************/
@@ -427,13 +406,7 @@
   transform: translateY(0);
 }
 
-
-
-
 /* Sección PLAYSTORE */
-/****************************************************
- *  SECCIÓN PRINCIPAL
- ****************************************************/
  .trial-section {
   max-width: 100%;
   margin: 0 100px;
@@ -542,8 +515,6 @@
 .app-store:hover {
   border: 2px solid rgb(9, 255, 0);
 }
-
-
 
 
 /*BOTON LENGUAJE*/
