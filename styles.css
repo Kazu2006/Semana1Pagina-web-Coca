@@ -166,13 +166,13 @@ body {
 
 /* Ajuste del título */
 .tituloxd {
-    font-size: 64px;
+    font-size: 55px;
     font-weight: 600;
     color: #0E0E2C;
     line-height: 1.2;
     padding: 10px 0;
     text-align: left;
-    max-width: 1000px;
+    max-width: 50%;
 }
 
 /* Ajuste del subtítulo */
