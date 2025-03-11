@@ -1,25 +1,27 @@
 /* Contenedor general */
 .container {
-    width: calc(100% - 200px); /* 80px de cada lado */
-    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 100px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 16px; /* Separa logo, nav-links y nav-buttons */
 }
 
 /* Navbar */
 .navbar {
     background-color: #024731; /* Verde oscuro */
-    padding: 15px 20px;
+    padding: 15px 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* Sin justify-content: space-between para no empujar a extremos */
 }
 
 /* Logo */
 .logo {
     display: flex;
     align-items: center;
+    flex: 0 0 auto; /* Sólo ocupa lo necesario */
 }
 
 .logo img {
@@ -29,9 +31,11 @@
 
 /* Navegación */
 .nav-links {
+    flex: 1;  
     display: flex;
-    align-items: center; /* Centra horizontalmente */
-    gap: 70px; /*Separacion del navbar central*/ 
+    align-items: center;
+    justify-content: center;
+    gap: 100px; 
 }
 
 .nav-links a {
@@ -47,18 +51,17 @@
 
 /* Botones Navbar */
 .nav-buttons {
+    flex: 0 0 auto;
     display: flex;
     gap: 15px;
-
 }
 
 .separator {
-    width: 1px;  /* Grosor de la línea */
-    height: 15px; /* Altura */
-    background-color: white; /* Color de la línea */
-    margin: auto; /* Espacio a los lados */
+    width: 1px;
+    height: 15px;
+    background-color: white;
+    margin: auto;
 }
-
 
 .login-btn {
     color: white;
@@ -66,10 +69,12 @@
     font-weight: 600;
     padding: 14px 15px;
     border-radius: 20px;
-    
 }
 
-
+.login-btn:hover {
+    background-color: transparent;
+    border: 2px solid white;
+}
 
 .signup-btn {
     background-color: #76f5fa;
@@ -81,12 +86,7 @@
 }
 
 .signup-btn:hover {
-    border: 2px solid white; /* Resalta más al pasar el mouse */
-}
-
-.login-btn:hover {
-    background-color: transparent;
-    border: 2px solid white; /* Resalta más al pasar el mouse */
+    border: 2px solid white;
 }
 
 
@@ -104,8 +104,8 @@
 
 /* Asegurar que el contenido dentro del Hero esté centrado */
 .hero .container {
-    width: calc(100% - 200px); /* 80px de cada lado */
-    margin: 0 auto;
+    width: 100%;
+    margin: 0 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -128,7 +128,7 @@
 
 /* Mejorar el título */
 .hero h1 {
-    font-size: 74px;
+    font-size: 70px;
     font-weight: 500;
     padding: 10px;
     margin: 20px;
@@ -166,7 +166,7 @@
     gap: 10px;
     position: absolute;
     left: 60px; /* Ajusta según necesidad */
-    bottom: 240px; /* Ajusta la posición vertical */
+    bottom: 250px; /* Ajusta la posición vertical */
     transform: translateX(560px); /* Ajuste horizontal */
 }
 
@@ -196,7 +196,7 @@
     text-decoration: none;
     padding: 12px 25px;
     border-radius: 5px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 /* Ajuste de botones */
@@ -233,7 +233,7 @@
 /* Número de contacto */
 .contact-info {
     position: absolute;
-    left: 115px;
+    left: 100px;
     bottom: 10px;
     display: flex;
     align-items: center;
@@ -243,7 +243,7 @@
 }
 
 .contact-info img{
-   width: 85px; /* Ajusta el tamaño del icono */
+   width: 80px; /* Ajusta el tamaño del icono */
    transform: translateY(-25px);    
 }
 
@@ -251,7 +251,7 @@
 /* Scroll Down */
 .scroll-down {
     position: absolute;
-    right: 130px;
+    right: 100px;
     bottom: 10px;
     color: white;
     display: flex;
@@ -279,7 +279,7 @@
 }
 
 .icon img {
-    width: 100%;
+    width: 90%;
     height: 100%;
     object-fit: contain;
 }
@@ -288,21 +288,22 @@
 .icon.email {
     bottom: 5%;
     left: 90%;
-    transform: translateY(-540px);
+    transform: translateY(-590px);
 }
 
 .icon.phone {
     width: 90px; /* Ajusta el tamaño según tu necesidad */
     bottom: 5%;
     right: 15%;
-    transform: translateY(-200px);
+    transform: translateY(-220px);
 }
 
 .icon.video {
     bottom: 5%;
     right: 90%;
-    transform: translateY(-400px);
+    transform: translateY(-480px);
 }
+
 
 
 
