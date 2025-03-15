@@ -621,56 +621,83 @@
 }
 
 
-/*SECCION PENULTIMO*/
+/* Sección de colaboración */
 .collaborate-sectionxddd {
   background-color: #0c0f26;
   color: white;
-  padding: 50px 80px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-radius: 10px;
+  justify-content: center;
+  padding: 100px 0;
+  max-width: 100%;
 }
 
+/* Contenedor principal */
 .collaborate-contentxddd {
-  max-width: 600px;
+  display: flex;               /* Distribuye izquierda (texto) y derecha (botón) */
+  align-items: flex-start;     /* Alinea al inicio verticalmente */
+  justify-content: space-between;
+  margin: 0 100px;             /* Mantén tu margen de 100px */
 }
 
+/* Contenedor izquierdo (Título + Contacto) */
+.collaborate-leftxddd {
+  display: flex;
+  flex-direction: column;      /* Título arriba, contactos debajo */
+  max-width: 900px;            /* Ancho máximo para el texto */
+}
+
+/* Título */
 .collaborate-titlexddd {
-  font-size: 2rem;
+  font-size: 72px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 
+/* Información de contacto (fila con íconos y texto) */
 .contact-infoxddd {
   display: flex;
-  gap: 30px;
+  gap: 100px;
   margin-top: 10px;
+  max-width: 600px; 
 }
 
+/* Ítem de contacto individual */
 .contact-itemxddd {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
   font-size: 1rem;
 }
 
+/* Imagen de contacto */
 .contact-imgxddd {
   width: 30px;
   height: 30px;
 }
 
+/* Contenedor del botón (lado derecho) */
+.button-containerxddd {
+  display: flex;
+  align-items: center;
+  /* Añade un margen superior para "bajar" el botón */
+  margin-top: 120px; 
+}
+
+/* Botón */
 .cta-buttonxddd {
   background-color: #ffd700;
-  color: black;
+  color: #0A5F45;
   text-decoration: none;
   font-weight: bold;
   padding: 15px 25px;
   border-radius: 30px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
   transition: 0.3s;
-  white-space: nowrap;
 }
 
+/* Hover del botón */
 .cta-buttonxddd:hover {
-  background-color: #e6c200;
+  background-color: #000000;
+  color: #ffffff;
 }
