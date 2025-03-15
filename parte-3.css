@@ -625,8 +625,7 @@
 .collaborate-sectionxddd {
   background-color: #0c0f26;
   color: white;
-  padding: 50px;
-  text-align: left;
+  padding: 50px 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -645,8 +644,8 @@
 
 .contact-infoxddd {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  gap: 30px;
+  margin-top: 10px;
 }
 
 .contact-itemxddd {
@@ -657,8 +656,8 @@
 }
 
 .contact-imgxddd {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 
 .cta-buttonxddd {
@@ -669,6 +668,7 @@
   padding: 15px 25px;
   border-radius: 30px;
   transition: 0.3s;
+  white-space: nowrap;
 }
 
 .cta-buttonxddd:hover {
