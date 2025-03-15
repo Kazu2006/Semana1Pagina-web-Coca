@@ -207,7 +207,11 @@ const translations = {
     title: "Regístrese hoy para su prueba gratuita e incorpore el chat en vivo en su sitio web.",
     subtitle: "Descubra el poder de la interacción con el cliente en tiempo real: ¡comience su prueba gratuita e integre el chat en vivo en su sitio web hoy mismo!",
     storeGoogle: `<span class="partuno">CONSIGUELO</span><span class="partdos">Google Play</span>`,
-    storeApp: `<span class="partuno">Descargar en el</span><span class="partdos">Tienda de aplicaciones</span>`
+    storeApp: `<span class="partuno">Descargar en el</span><span class="partdos">Tienda de aplicaciones</span>`,
+    collaborateTitle: "¿Estás preparado para colaborar con nosotros?",
+    collaborateAddress: "1929, Bancangan, Sambit, Suroboyo, Wakanda",
+    collaborateEmail: "hello@cocapay.co",
+    collaborateButton: "Comenzar un Proyecto",
   },
 
   en: {
@@ -274,7 +278,11 @@ const translations = {
     title: "Sign up for your free trial today and incorporate live chat on your website.",
     subtitle: "Unlock the power of real-time customer engagement: Start your free trial and integrate live chat on your website today!",
     storeGoogle: `<span class="partuno">GET IT ON</span><span class="partdos">Google Play</span>`,
-    storeApp: `<span class="partuno">Download on the</span><span class="partdos">App Store</span>`
+    storeApp: `<span class="partuno">Download on the</span><span class="partdos">App Store</span>`,
+    collaborateTitle: "Are you prepared to collaborate with us?",
+    collaborateAddress: "1929, Bancangan, Sambit, Suroboyo, Wakanda",
+    collaborateEmail: "hello@cocapay.co",
+    collaborateButton: "Get Start a Project",
   }
 };
 

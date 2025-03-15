@@ -621,8 +621,8 @@
 }
 
 
-
-.collaborate-section {
+/*SECCION PENULTIMO*/
+.collaborate-sectionxddd {
   background-color: #0c0f26;
   color: white;
   padding: 50px;
@@ -633,41 +633,35 @@
   border-radius: 10px;
 }
 
-.collaborate-content {
+.collaborate-contentxddd {
   max-width: 600px;
 }
 
-.collaborate-content h2 {
+.collaborate-titlexddd {
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-.contact-info {
+.contact-infoxddd {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.contact-item {
+.contact-itemxddd {
   display: flex;
   align-items: center;
   gap: 10px;
   font-size: 1rem;
 }
 
-.icon {
-  background-color: rgba(255, 255, 255, 0.1);
-  padding: 10px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.contact-imgxddd {
   width: 40px;
   height: 40px;
 }
 
-.cta-button {
+.cta-buttonxddd {
   background-color: #ffd700;
   color: black;
   text-decoration: none;
@@ -677,6 +671,6 @@
   transition: 0.3s;
 }
 
-.cta-button:hover {
+.cta-buttonxddd:hover {
   background-color: #e6c200;
 }
