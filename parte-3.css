@@ -724,3 +724,46 @@
   background-color: #000000;
   color: #ffffff;
 }
+
+
+
+/* Footer general */
+.footer-sectionxddd {
+  background-color: #0c0f26;  /* Igual que tu sección */
+  color: #ffffff;            /* Texto blanco */
+}
+
+/* Línea horizontal suave */
+.footer-dividerxddd {
+  border-top: 1px solid rgba(255, 255, 255, 0.2); /* línea semitransparente */
+  margin: 0 100px; /* Ajusta para que coincida con tu margen horizontal */
+}
+
+/* Contenedor del contenido del footer */
+.footer-contentxddd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 100px;     /* Mismo margen lateral que en tu sección */
+  padding: 25px 0;     /* Separación vertical */
+}
+
+/* Texto izquierdo */
+.footer-copyxddd {
+  font-size: 0.875rem; /* Ajusta el tamaño a tu gusto */
+}
+
+/* Enlaces de la derecha */
+.footer-linksxddd a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 40px;   /* Separación entre enlaces */
+  font-size: 0.875rem;
+  transition: color 0.3s;
+}
+
+/* Hover en los enlaces */
+.footer-linksxddd a:hover {
+  color: #ffd700;      /* Amarillo dorado al pasar el ratón */
+}
+
