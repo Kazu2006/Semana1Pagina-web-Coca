@@ -21,9 +21,10 @@ El objetivo es recrear el diseño y estructura lo más fielmente posible, En mi 
 - **Estructura**: Se organiza en varios archivos (`index.html`, `navar.css`,`styles.css`, `parte-3.css`,`Javascript.js`,`chatbot.js`).
 
 ## Capturas de pantalla
-**Prueba de mi Pagina Web** 
+**Prueba de mi Pagina Web**
+LINK DE MI PAGINA: https://kazu2006.github.io/Semana1Pagina-web-Coca/
 
-![PRUEBA](https://github.com/user-attachments/assets/bcf0f467-2896-4bee-89c1-b18e678424c1)
+![actualizado-page](https://github.com/user-attachments/assets/763b8a00-03a2-45b3-84d6-abb84025ec44)
 
 
 ## Secciones replicadas:
@@ -51,9 +52,11 @@ El objetivo es recrear el diseño y estructura lo más fielmente posible, En mi 
    - Tres planes principales (Silver, Gold, Premium).
    - Precios y características de cada plan.
    - Botones de “Elegir Plan”.
+7. **Descarga (google Play)**  
+   - Resgistrese de forma gratuita.
+   - Metodo en google play , app store
 
-  (ME FALTA ESTO, EN DESARROLLO)
-7. **Pie de página (Footer)**  
+8. **Pie de página (Footer)**  
    - Texto final, enlaces de redes sociales o menús de política de privacidad, etc.
 
 ## Estructura de Archivos
