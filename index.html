@@ -477,10 +477,14 @@
 
 <section class="collaborate-sectionxddd">
   <div class="collaborate-contentxddd">
-    <div class="collaborate-leftxddd">
+    <!-- Columna Izquierda -->
+    <div class="left-sidexddd">
+      <!-- Título -->
       <h2 class="collaborate-titlexddd" data-key="collaborateTitle">
         ¿Estás preparado para colaborar con nosotros?
       </h2>
+
+      <!-- Información de contacto -->
       <div class="contact-infoxddd">
         <div class="contact-itemxddd">
           <img
@@ -488,7 +492,9 @@
             alt="Ubicación"
             class="contact-imgxddd"
           />
-          <p data-key="collaborateAddress">1929, Bancangan, Sambit, Suroboyo, Wakanda</p>
+          <p data-key="collaborateAddress">
+            1929, Bancangan, Sambit, Suroboyo, Wakanda
+          </p>
         </div>
         <div class="contact-itemxddd">
           <img
@@ -496,19 +502,40 @@
             alt="Correo Electrónico"
             class="contact-imgxddd"
           />
-          <p data-key="collaborateEmail">hello@cocapay.co</p>
+          <p data-key="collaborateEmail">
+            hello@cocapay.co
+          </p>
         </div>
       </div>
     </div>
 
-    <!-- Contenedor para el botón (lado derecho) -->
-    <div class="button-containerxddd">
-      <button class="cta-buttonxddd" data-key="collaborateButton">
-        Comenzar un Proyecto &rarr;
+    <!-- Columna Derecha: Botón -->
+    <div class="right-sidexddd">
+      <button class="cta-buttonxddd">
+        <!-- Solo el texto lleva data-key -->
+        <span data-key="collaborateButtonText">Comenzar un Proyecto</span>
+        
+        <!-- La flecha NO tiene data-key -->
+        <svg
+        class="arrow-iconxddd"
+        xmlns="http://www.w3.org/2000/svg"
+        width="15"
+        height="15"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <line x1="1" y1="12" x2="19" y2="12"></line>
+        <polyline points="12 5 19 12 12 19"></polyline>
+      </svg>
       </button>      
     </div>
   </div>
 </section>
+
 
 
   <!-- Vinculamos el archivo JavaScript -->

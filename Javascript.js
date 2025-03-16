@@ -211,7 +211,7 @@ const translations = {
     collaborateTitle: "¿Estás preparado para colaborar con nosotros?",
     collaborateAddress: "1929, Bancangan, Sambit, Suroboyo, Wakanda",
     collaborateEmail: "hello@cocapay.co",
-    collaborateButton: "Comenzar un Proyecto",
+    collaborateButtonText: "Comenzar un Proyecto"
   },
 
   en: {
@@ -282,7 +282,7 @@ const translations = {
     collaborateTitle: "Are you prepared to collaborate with us?",
     collaborateAddress: "1929, Bancangan, Sambit, Suroboyo, Wakanda",
     collaborateEmail: "hello@cocapay.co",
-    collaborateButton: "Get Start a Project",
+    collaborateButtonText: "Start a Project"
   }
 };
 

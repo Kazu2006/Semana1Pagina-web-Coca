@@ -621,43 +621,43 @@
 }
 
 
+/**/
 /* Sección de colaboración */
 .collaborate-sectionxddd {
   background-color: #0c0f26;
   color: white;
-  justify-content: center;
   padding: 100px 0;
-  max-width: 100%;
 }
 
-/* Contenedor principal */
+/* Contenedor principal: flex con espacio entre izquierda (texto) y derecha (botón) */
 .collaborate-contentxddd {
-  display: flex;               /* Distribuye izquierda (texto) y derecha (botón) */
-  align-items: flex-start;     /* Alinea al inicio verticalmente */
+  display: flex;
+  align-items: flex-start;   /* Alinea al inicio vertical */
   justify-content: space-between;
-  margin: 0 100px;             /* Mantén tu margen de 100px */
+  margin: 0 100px;           /* Ajusta si quieres más o menos espacio lateral */
 }
 
-/* Contenedor izquierdo (Título + Contacto) */
-.collaborate-leftxddd {
+/* Columna Izquierda */
+.left-sidexddd {
+  max-width: 900px;          /* Ajusta según tu preferencia */
   display: flex;
-  flex-direction: column;      /* Título arriba, contactos debajo */
-  max-width: 900px;            /* Ancho máximo para el texto */
+  flex-direction: column;
 }
 
 /* Título */
 .collaborate-titlexddd {
   font-size: 72px;
-  font-weight: bold;
-  margin-bottom: 35px;
+  font-weight: 500;
+  margin-bottom: 70px;       /* Espacio debajo del título */
 }
 
 /* Información de contacto (fila con íconos y texto) */
 .contact-infoxddd {
   display: flex;
-  gap: 100px;
+  gap: 140px;                /* Separación horizontal entre los 2 ítems */
   margin-top: 10px;
-  max-width: 600px; 
+  max-width: 700px; 
+  padding-bottom: 150px;       /* Espacio debajo del título */
 }
 
 /* Ítem de contacto individual */
@@ -668,18 +668,32 @@
   font-size: 1rem;
 }
 
-/* Imagen de contacto */
+/* Ícono con fondo circular */
 .contact-imgxddd {
+  /* Ajusta el tamaño total del círculo */
   width: 30px;
   height: 30px;
+  
+  /* Hazlo circular y añade fondo */
+  border-radius: 50%;
+  background-color: #2c2f48; /* Un tono más claro que #0c0f26 */
+  
+  /* Espacio interno para que el ícono no pegue al borde */
+  padding: 10px;        
+  
+  /* Para que la imagen no se deforme */
+  object-fit: contain;
+  
+  /* (Opcional) si necesitas que <img> se comporte como un bloque */
+  display: inline-block;
 }
 
-/* Contenedor del botón (lado derecho) */
-.button-containerxddd {
+
+/* Columna Derecha: Botón */
+.right-sidexddd {
   display: flex;
-  align-items: center;
-  /* Añade un margen superior para "bajar" el botón */
-  margin-top: 120px; 
+  align-items: center;       /* Centra verticalmente el botón respecto al título */
+  margin-top: 150px;
 }
 
 /* Botón */
@@ -694,6 +708,15 @@
   font-size: 1rem;
   cursor: pointer;
   transition: 0.3s;
+  display: inline-flex;   /* Para alinear icono y texto en línea */
+  align-items: center;    
+  gap: 10px;              /* Espacio entre texto y flecha */
+}
+
+/* Flecha: ajusta el tamaño si deseas */
+.arrow-iconxddd {
+  width: 18px;
+  height: 18px;
 }
 
 /* Hover del botón */
