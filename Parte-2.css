@@ -1,0 +1,376 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+/* Sección de Integraciones */
+.integrations {
+    background: white;
+    text-align: center;
+    margin: 0 100px; 
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estiliza el título */
+.integrations h2 {
+    font-size: 28px;
+    color: #222;
+    font-weight: 600;
+    margin-bottom: 80px; /* Separa el título de los iconos */
+    text-align: center;
+}
+
+/* Contenedor de los íconos */
+.integration-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px; /* Espacio entre los íconos */
+    max-width: 800px;
+}
+
+/* Estiliza los íconos */
+.integration-icons img {
+    width: 80px;
+    height: 80px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Efecto hover */
+.integration-icons img:hover {
+    transform: scale(1.1);
+}
+
+
+
+/* Estilos de la Sección de Mensajería */
+
+.messaging {
+    background: white;
+    padding: 100px 10px;
+    margin: 0 100px; 
+}
+
+.messaging-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1500px; /* y esto ayuda como a tenerlo como centrar creo xdd*/
+}
+
+.messaging-text {
+    max-width: 100%; /*esto ayuda para ajustar su ancho del texto*/
+}
+
+.messaging-text h2 {
+    font-size: 64px;
+    color: #0E1629; /* Azul oscuro similar a la imagen */
+    font-weight: 500;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.messaging-text p {
+    font-size: 16px;
+    color: #7A8599;
+    line-height: 1.5;
+    max-width: 65%;
+    margin-bottom: 20px;
+}
+
+.messaging-text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.messaging-text ul li {
+    font-size: 16px;
+    color: #0E1629;
+    margin-bottom: 25px;
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+}
+
+/*esto son los ajustes del check*/
+.messaging-text ul li::before {
+    content: "✔";
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    width: 28px;
+    height: 28px;
+    background-color: #0E7355;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    clip-path: polygon(
+        50% 0%, 62% 12%, 78% 10%, 88% 24%, 100% 33%, 
+        92% 50%, 100% 67%, 88% 76%, 78% 90%, 62% 88%, 
+        50% 100%, 38% 88%, 22% 90%, 12% 76%, 0% 67%, 
+        8% 50%, 0% 33%, 12% 24%, 22% 10%, 38% 12%
+    );
+    border-radius: 8%;
+}
+
+
+
+.messaging-image img {
+    max-width: 580px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    padding: 0 35px;
+}
+
+
+
+/**/
+/* Sección de Comunicación y Pedidos */
+.communication-orders {
+    background: linear-gradient(to bottom, #ffffff 30%, #024731 0%);
+}
+
+/* Contenedor general */
+.container-comunicacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 10px;
+    margin: 0 100px; 
+}
+
+/* Contenedor del texto */
+.top-content {
+    display: flex;
+    justify-content: space-between; /* Separa el título a la izquierda y el subtítulo a la derecha */
+    align-items: center; /* Alinea los textos en la misma línea */
+    width: 100%;
+}
+
+/* Contenedor del texto */
+.textconta {
+    display: flex;
+    justify-content: space-between; /* Separa el título y subtítulo */
+    align-items: center; /* Asegura que ambos estén alineados verticalmente */
+    width: 100%;
+}
+
+/* Ajuste del título */
+.tituloxd {
+    font-size: 55px;
+    font-weight: 600;
+    color: #0E0E2C;
+    line-height: 1.2;
+    padding: 10px 0;
+    text-align: left;
+    max-width: 55%;
+}
+
+/* Ajuste del subtítulo */
+.subtituloxd {
+    font-size: 16px;
+    color: #6B7280;
+    max-width: 380px;
+    line-height: 1.5;
+}
+
+
+
+
+/* Contenedor del video */
+.videoimagen {
+    max-width: 1600px;
+    width: 100%; /* Asegura que se adapte al ancho disponible */
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente si es necesario */
+    margin: 0 auto; /* Centra el contenedor en la página */
+}
+
+.videoimagen img {
+    width: 100%;
+    max-width: 100%;
+    height: auto; /* Mantiene la proporción */
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+/* Sección inferior con fondo verde
+AQUI PUEDO PONER SU MARGIN 80*/
+.bottom-wrapper {
+    padding-top: 100px;
+    max-width: 1800px;
+    position: relative;
+    width: 100%;
+}
+
+/* Contenedor del contenido verde */
+.bottom-content {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: space-between;
+    gap: 100px;
+    color: white;
+}
+
+/* Texto dentro de la sección verde */
+.orders-text {
+    flex: 1;
+}
+
+.orders-text h2 {
+    max-width: 80%; /* Ajusta el ancho del texto */
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.orders-text .subtitu {
+    max-width: 58%;
+    font-size: 18px;
+    color: #bebebe;
+}
+
+/* Sección de estadísticas */
+.stats {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 130px; /* Espacio entre cada estadística */
+}
+
+.stats div {
+    display: flex;
+    align-items: center;
+    max-width: 30%;
+    gap: 20px; /* Espacio entre número y texto */
+}
+
+.stats h5 {
+    font-size: 64px; /* Tamaño grande para los números */
+    font-weight: 600; /* Más grueso */
+    color: white;
+    margin: 20px 10px;
+}
+
+.numerosxdd {
+    font-size: 18px; /* Tamaño del texto descriptivo */
+    font-weight: 500;
+    color: white;
+    margin: 0;
+}
+
+
+/* Imagen en la sección verde */
+.dashboard-image {
+    flex: 1;
+    max-width: 600px;
+    display: flex;
+    justify-content: flex-end; /* Alinea la imagen a la derecha */
+}
+
+.dashboard-image img {
+    width: 100%;
+    max-width: 600px; /* Controla el tamaño máximo */
+    border-radius: 10px;
+}
+
+
+
+
+
+/*SECCION DE mensaje numero2*/
+/* SECCIÓN DE MENSAJE NUMERO 2 */
+.chatsx-interface {
+    display: flex;
+    align-items: center; /* Centra la imagen y el texto verticalmente */
+    justify-content: center;
+    gap: 150px; /* Reduce la separación */
+    margin: 0 100px;
+    padding: 140px 0;
+    background-color: white;
+    
+}
+
+.chatsx-image {
+    width: 680px; /* Ajusta la imagen a un tamaño más preciso */
+    flex-shrink: 0;
+}
+
+.chatsx-image img {
+    flex: 1; /* Permite que el texto se ajuste bien */
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.1);
+}
+
+.chatsx-text {
+    max-width: 750px; /* Define un ancho máximo */
+    flex: 1; /* Permite que el texto se ajuste bien */
+}
+
+.chatsx-title {
+    font-size: 62px; /* Tamaño similar al de la imagen */
+    color: black;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: auto;
+}
+
+.chatsx-paragraph {
+    max-width: 600px; /* Define un ancho máximo */
+    font-size: 18px;
+    color: #5F6368;
+    line-height: 1.6;
+    margin-top: 40px;
+}
+
+.learn-more {
+    background-color: #024731;
+    color: white;
+    padding: 15px 44px;
+    border-radius: 80px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+
+.learn-more:hover {
+    background-color: #092219;
+}
+
+
+
+
+
+/* Responsividad */
+@media (max-width: 1024px) {
+    .messaging-container {
+        flex-direction: column;
+        text-align: center;
+        width: calc(100% - 160px); /* 80px de cada lado */
+        margin: 0 auto;
+    }
+
+    .messaging-text {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .messaging-image img {
+        max-width: 100%;
+    }
+}
+
+
+

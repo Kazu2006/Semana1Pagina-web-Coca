@@ -1,0 +1,307 @@
+/* Contenedor general */
+.container {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 100px;
+    display: flex;
+    align-items: center;
+    gap: 16px; /* Separa logo, nav-links y nav-buttons */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #024731; /* Verde oscuro */
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    /* Sin justify-content: space-between para no empujar a extremos */
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto; /* Sólo ocupa lo necesario */
+}
+
+.logo img {
+    height: 50px;
+    margin: auto;
+}
+
+/* Navegación */
+.nav-links {
+    flex: 1;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px; 
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Botones Navbar */
+.nav-buttons {
+    flex: 0 0 auto;
+    display: flex;
+    gap: 15px;
+}
+
+.separator {
+    width: 1px;
+    height: 15px;
+    background-color: white;
+    margin: auto;
+}
+
+.login-btn {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 14px 15px;
+    border-radius: 20px;
+}
+
+.login-btn:hover {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.signup-btn {
+    background-color: #76f5fa;
+    color: #024731;
+    padding: 14px 40px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.signup-btn:hover {
+    border: 2px solid white;
+}
+
+
+/* Hero Section */
+.hero {
+    background-color: #024731;
+    color: white;
+    text-align: center;
+    padding: 90px 0;
+    position: relative;
+    display: flex;
+    justify-content: center; /* Centra todo horizontalmente */
+    align-items: center; /* Centra todo verticalmente */
+}
+
+/* Asegurar que el contenido dentro del Hero esté centrado */
+.hero .container {
+    width: 100%;
+    margin: 0 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* Etiqueta superior */
+.tag {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 6px 50px;
+    border-radius: 15px;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+
+/* Mejorar el título */
+.hero h1 {
+    font-size: 80px;
+    font-weight: 500;
+    padding: 10px;
+    margin: 20px;
+    line-height: 1.2;
+    max-width: 59%; /*esto ayuda para ajustar su ancho del texto*/
+
+}
+
+
+/* Mejorar el subtítulo */
+.hero p {
+    font-size: 14px;
+    font-weight: 300;
+    max-width: 400px;
+    margin: 0 auto 50px;
+    line-height: 1.5;
+}
+
+
+/* Botones Hero */
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 90px; /*altura xd*/
+}
+
+
+/*flecha blanca confi*/
+/* Contenedor de texto y flecha */
+.arrow-text-container {
+    display: flex;
+    position: absolute;
+    left: 60px; /* Ajusta según necesidad */
+    bottom: 260px; /* Ajusta la posición vertical */
+    transform: translateX(580px); /* Ajuste horizontal */
+}
+
+/* Texto estilizado */
+.arrow-text {
+    max-width: 60%; /*esto ayuda para ajustar su ancho del texto*/
+    color: white;
+    font: oblique bold 70% cursive;
+    transform: rotate(12deg); /* Inclinación más natural */
+}
+
+/* Flecha SVG mejorada */
+.arrow-text-container svg {
+    width: 40px;
+    stroke: white;
+    stroke-width: 2.5;
+    fill: none;
+    transform: rotate(80deg); /* Inclinación más natural */
+    position: absolute;
+    left: 50px; /* Ajusta según necesidad */
+    bottom: -40px; /* Ajusta la posición vertical */
+}
+
+
+
+.btn {
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+/* Ajuste de botones */
+.yellow-btn {
+    background-color: #FFD700;
+    color: #024731;
+    padding: 18px 35px;
+    border-radius: 50px;
+    font-weight: 600; /*El grosor del texto*/
+    text-align: center;
+}
+
+.green-btn {
+    color: #f1ff2e; /* Texto en verde */
+    padding: 18px 35px;
+    border-radius: 50px;
+    font-weight: 500; /*El grosor del texto*/   
+    border: 1px solid #f1ff2e; /* Borde verde */
+}
+
+.yellow-btn:hover {
+    background-color: #FFC107;
+    border: 2px solid white; /* Resalta más al pasar el mouse */
+    color: white;
+}
+
+.green-btn:hover {
+    background-color: #2AA844; /* Se llena de verde al pasar el mouse */
+    color: white;
+    border: 2px solid white; /* Resalta más al pasar el mouse */
+}
+
+
+/* Número de contacto */
+.contact-info {
+    position: absolute;
+    left: 100px;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    color: white;
+
+}
+
+.contact-info img{
+   width: 80px; /* Ajusta el tamaño del icono */
+   transform: translateY(-25px);    
+}
+
+
+/* Scroll Down */
+.scroll-down {
+    position: absolute;
+    right: 100px;
+    bottom: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+.scroll-down img {
+    width: 65px; /* Ajusta el tamaño del icono */
+    transform: translateY(-25px);
+}
+
+
+
+/* Iconos flotantes */
+.floating-icons {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.icon {
+    position: absolute;
+    width: 70px; /* Ajusta el tamaño según tu necesidad */
+
+}
+
+.icon img {
+    width: 90%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Posiciones específicas */
+.icon.email {
+    bottom: 5%;
+    left: 90%;
+    transform: translateY(-590px);
+}
+
+.icon.phone {
+    width: 90px; /* Ajusta el tamaño según tu necesidad */
+    bottom: 5%;
+    right: 15%;
+    transform: translateY(-220px);
+}
+
+.icon.video {
+    bottom: 5%;
+    right: 90%;
+    transform: translateY(-480px);
+}
+
+
+
+
+
